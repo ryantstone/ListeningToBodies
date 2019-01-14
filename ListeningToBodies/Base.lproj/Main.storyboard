@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -36,6 +37,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0pk-Vh-7lT" kind="show" id="JEh-mA-ieC"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gtK-gd-I6V">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -44,7 +48,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preface" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-IG-CeX">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preface: About Somatic Business Coaching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-IG-CeX">
                                                     <rect key="frame" x="16" y="11" width="276" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,6 +57,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Bo2-h4-mGM" kind="show" id="6fh-H9-yZW"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hqj-vJ-15a">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -186,6 +193,104 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEF-Sh-maa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1749.5999999999999" y="774.96251874062978"/>
+        </scene>
+        <!--Introduction-->
+        <scene sceneID="ra2-cR-b26">
+            <objects>
+                <viewController title="Introduction" id="0pk-Vh-7lT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sv3-aM-vJh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kxm-9t-ebX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-gH-Y4n">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="818"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no
+thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
+
+Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human
+beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.
+
+Learning to recover the skill of utilizing and trusting our senses provides direct access to the world around us. By increasing our awareness of sensory input, we become more effective, grounded, nurtured, and nurturing. By learning to become self-generating, we can learn to shift behaviors that we wish to change. We can improve ourconnection to people and find new opportunities. A rediscovery of life through our senses leads to greater satisfaction and a renewed joy in living. Ultimately, regaining the skills of feeling and sensing brings usback into more coherence and unity with the flow of life that we have cut ourselves off from. When we begin feeling, we connect with what satisfies us, what we care about, and what we want to express. For many people this comes as an awakening. It becomes possible to live a full and satisfying life, paying closer attention to our loved ones and what they care about, and finding meaningful expression through work, art, and play. These are typical results for people who develop somatic awareness. It happened for me when I began to study somatic principles and practices. My experience of living...</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kxm-9t-ebX" firstAttribute="leading" secondItem="C4m-US-9G5" secondAttribute="leading" id="BBd-W8-chl"/>
+                            <constraint firstItem="Kxm-9t-ebX" firstAttribute="trailing" secondItem="C4m-US-9G5" secondAttribute="trailing" id="CwI-wQ-7g0"/>
+                            <constraint firstItem="Kxm-9t-ebX" firstAttribute="top" secondItem="C4m-US-9G5" secondAttribute="top" id="Gio-rB-496"/>
+                            <constraint firstItem="Kxm-9t-ebX" firstAttribute="bottom" secondItem="C4m-US-9G5" secondAttribute="bottom" id="cT8-sl-p3N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C4m-US-9G5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bNj-GO-3lP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808.79999999999995" y="1621.4392803598203"/>
+        </scene>
+        <!--Preface: About Somatic Business Coaching-->
+        <scene sceneID="IBD-ac-Hym">
+            <objects>
+                <viewController title="Preface: About Somatic Business Coaching" id="Bo2-h4-mGM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IQn-82-Plf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s56-HS-AhK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
+                                        <rect key="frame" x="0.0" y="8" width="375" height="303"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Traditional business coaching has long been recognized as a powerful catalyst for developing the skills of successful leadership. Somatic business coaching unites the power of traditional business coaching with the wisdom of somatics, or the wisdom of the entire body, mind and spirit.
+
+The ability to mobilize and motivate others, attract talented followers, be politically astute, and think strategically are a few of the traits necessary for the consummate leader. Most business training and
+coaching, however, neglect the body and its enormous capacity for wisdom, energy, and leadership. Somatic coaching helps build effective leadership by using basic principles to become a fully embodied person.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-EC-dQ7">
+                                        <rect key="frame" x="175" y="375" width="127" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Breathing Practice"/>
+                                        <connections>
+                                            <action selector="bpClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="Jnw-hX-GFN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-8J-ZbM">
+                                        <rect key="frame" x="62" y="375" width="74" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Body Scan"/>
+                                        <connections>
+                                            <action selector="bsClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="xds-VP-fCu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s56-HS-AhK" firstAttribute="trailing" secondItem="NHU-AG-KAR" secondAttribute="trailing" id="0u1-mm-fwO"/>
+                            <constraint firstItem="s56-HS-AhK" firstAttribute="top" secondItem="NHU-AG-KAR" secondAttribute="top" id="2UX-kI-MJs"/>
+                            <constraint firstItem="s56-HS-AhK" firstAttribute="bottom" secondItem="NHU-AG-KAR" secondAttribute="bottom" id="CtV-IX-aXn"/>
+                            <constraint firstItem="s56-HS-AhK" firstAttribute="leading" secondItem="NHU-AG-KAR" secondAttribute="leading" id="ost-tC-8AC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NHU-AG-KAR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nc9-o8-rEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Ha8-Ld-m9B" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1554.4000000000001" y="1618.7406296851575"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kSh-Ns-3qE">

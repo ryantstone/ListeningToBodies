@@ -13,6 +13,7 @@
 		94A0DBCD21ECF6E200434710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A0DBCC21ECF6E200434710 /* Assets.xcassets */; };
 		94A0DBD021ECF6E200434710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */; };
 		94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */; };
+		94A0DBDA21ED389200434710 /* PrefaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBD921ED389200434710 /* PrefaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94A0DBCF21ECF6E200434710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A0DBD121ECF6E200434710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		94A0DBD921ED389200434710 /* PrefaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				94A0DBC721ECF6E000434710 /* ViewController.swift */,
 				94A0DBC921ECF6E000434710 /* Main.storyboard */,
 				94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */,
+				94A0DBD921ED389200434710 /* PrefaceViewController.swift */,
 				94A0DBCC21ECF6E200434710 /* Assets.xcassets */,
 				94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */,
 				94A0DBD121ECF6E200434710 /* Info.plist */,
@@ -141,6 +144,7 @@
 				94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */,
 				94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */,
 				94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */,
+				94A0DBDA21ED389200434710 /* PrefaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
