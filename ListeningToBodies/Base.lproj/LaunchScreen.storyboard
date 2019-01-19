@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-sM-7az">
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-sM-7az">
                                 <rect key="frame" x="45" y="191" width="285" height="285"/>
                                 <color key="backgroundColor" red="0.87100893259048462" green="0.39398312568664551" blue="0.30030477046966553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
