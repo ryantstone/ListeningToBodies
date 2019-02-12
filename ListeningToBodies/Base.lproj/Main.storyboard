@@ -77,6 +77,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="AOq-D3-lBu" kind="show" id="Bt7-A8-Ans"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="tQU-Ms-3VN">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -248,30 +251,57 @@ Learning to recover the skill of utilizing and trusting our senses provides dire
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
-                                        <rect key="frame" x="0.0" y="8" width="375" height="303"/>
+                                        <rect key="frame" x="0.0" y="8" width="375" height="549"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Traditional business coaching has long been recognized as a powerful catalyst for developing the skills of successful leadership. Somatic business coaching unites the power of traditional business coaching with the wisdom of somatics, or the wisdom of the entire body, mind and spirit.
+                                        <mutableString key="text">Traditional business coaching has long been recognized as a powerful catalyst for developing the skills of successful leadership. Somatic business coaching unites the power of traditional business coaching with the wisdom of somatics, or the wisdom of the entire body, mind and spirit.
 
 The ability to mobilize and motivate others, attract talented followers, be politically astute, and think strategically are a few of the traits necessary for the consummate leader. Most business training and
-coaching, however, neglect the body and its enormous capacity for wisdom, energy, and leadership. Somatic coaching helps build effective leadership by using basic principles to become a fully embodied person.</string>
+coaching, however, neglect the body and its enormous capacity for wisdom, energy, and leadership. Somatic coaching helps build effective leadership by using basic principles to become a fully embodied person.  When somatic intelligence and practices are incorporated into proven
+traditional coaching practices, powerful results can ensue. Here are some typical results achieved by incorporating somatic coaching with
+traditional coaching:
+
+• One way I used to limit success was by unconsciously
+maintaining a fear-based stance -- arms crossed over my chest protecting myself. Now I stand and work more professionally with my head up and arms open, ready to receive pportunities and handle challenges.
+
+• Somatic coaching helped me be more centered, more
+grounded, more connected to spirit. I even walk differently!
+Rather than fall into depression, I stand my ground and walk more confidently. I am more purposeful and relaxed.
+
+• My voice used to get caught in my throat when I was dealing with a difficult situation. Now I can remain calm and speak from my center. My voice is stronger, and I have seen positive
+reactions from my team when I speak in this new manner.
+
+The "body" or "soma" of somatic business coaching is very different from the mechanical body often portrayed by traditional western thinking. The traditional view emphasizes techniques, procedures and
+methods. It assumes there are right and wrong ways of leadership, and it often treats followers as "objects" or means for accomplishing a
+specific end. "Embodying" this kind of leadership requires fitting ourselves into an externally designed, pre-determined model that tells us how to dress and what attitudes to have towards others and the
+world. Somatic business coaching works with each living body in its wholeness. Somatic coaches recognize that our actions are produced in our physical structure, and that our actions reflect our whole Self. This Self is the identity we have in the world, in our communities, in our
+organizations, in our circle of friends and in our families. It is not what we think or say about ourselves, but how we act, and how others assess
+these actions. Somatics recognizes that we open or close our possibilities in the world by how we open or close our physical structures. For example, when hunched and coiled inward, I am predisposed to resignation. I limit possibilities by limiting my ability to see them and by diminishing my faith in my own resources. Not only do I overlook the resources outside myself, but I also discourage others from engaging with me.
+If I wish to be open to more possibilities, I can practice feeling my feet firmly on the ground, allow my knees to be unlocked and flexible, expand my breathing and hold my head comfortably with my neck straight yet relaxed. In this stance, I am naturally more confident and more approachable. I have all "my wits about me," and I am better able to engage with others in productive relationships.
+Changing, even when it is obvious what the benefits would be, is not always easy. It requires awareness and vigilance to shift our habits.
+
+One of the most powerful somatic business coaching practices is simply to notice what is happening in the body at any given moment. "When I pay attention to body reactions," says one executive, "it's relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter - two areas I care about."
+Increased personal awareness leads to increased interpersonal awareness. "Because I am more aware of my own energy and mood," says another executive, "I am also aware of the energy and mood in staff meetings and other business contexts. It's so much easier to be connected with other people at work, even people I used to consider difficult."  In many ways, somatic business coaching practices enhance traditional
+business wisdom. Leaders have long been expected to observe and produce ambitious moods and trust in their teams. Reading a book on trust may promote intellectual understanding, but if someone does not embody this understanding, they cannot act on it. A person may be sincere and value trust. But if their breath is high and rapid in their tight chest, if they are squeezing their eyes and freezing a smile on their face, they will have difficulty trusting, and it will be difficult for others to trust them. When they drop their breath, open their eyes, and relax, they can be authentic and be more available to others as well.
+In our learning together, I will provide the basic principles that will help you increase your awareness of your body, providing access to the
+wisdom that will help you to live a more fully expressed and satisfying life. Doing the practices may mean making some changes, but you will be the one who decides what you want to change based on the benefits you see right from the beginning.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-EC-dQ7">
-                                        <rect key="frame" x="175" y="375" width="127" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Breathing Practice"/>
-                                        <connections>
-                                            <action selector="bpClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="Jnw-hX-GFN"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-8J-ZbM">
-                                        <rect key="frame" x="62" y="375" width="74" height="30"/>
+                                        <rect key="frame" x="77" y="565" width="74" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Body Scan"/>
                                         <connections>
                                             <action selector="bsClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="xds-VP-fCu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-EC-dQ7">
+                                        <rect key="frame" x="202" y="565" width="127" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Breathing Practice"/>
+                                        <connections>
+                                            <action selector="bpClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="Jnw-hX-GFN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -291,6 +321,205 @@ coaching, however, neglect the body and its enormous capacity for wisdom, energy
                 <exit id="Ha8-Ld-m9B" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1554.4000000000001" y="1618.7406296851575"/>
+        </scene>
+        <!--LISTENING: How do we do it?-->
+        <scene sceneID="vgc-Di-4ha">
+            <objects>
+                <viewController title="LISTENING: How do we do it?" id="AOq-D3-lBu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="siR-lk-PLu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3h-6H-pRV">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
+                                        <rect key="frame" x="8" y="8" width="359" height="587"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">“...too many executives think they are wonderful with people because they talk well. They don’t realize that being wonderful with people means ‘listening’ well.”
+
+Peter Drucker2  We normally assume that we listen to words. A study at the University of California in 1991, however, indicated that only 7% of any communication is the choice of words; 93% is conveyed through body language and tone of voice3. So how do we listen to not only the 7%, but the other 93% as well? Can we and do we actually use all of our senses to listen deeply?
+These are the questions I have repeatedly asked myself in the many years I have been working with people, as a body worker, Reiki practitioner, sales manager, entrepreneur, business and communications
+2 Drucker, Peter. Managing the Non-Profit Organization. Collins Publishers, 2006.
+3 Wolvin, Andrew D. Communication Education, Volume 40, No.2, April, 1991.
+
+Suzanne Zeman
+
+20
+consultant, and executive coach. The conclusion I have come to is that
+we can educate and train ourselves to listen with full awareness, using
+all our senses to “hear” and interpret what others are conveying. We
+can all learn to do this. What’s required to learn is focusing our
+attention on the wisdom of the body, learning to open all our senses,
+and being fully present in the moment with each person we are
+listening to. This way we can listen to the words spoken, emotions,
+moods, breathing, and voice of the people we interact with at work, at
+home, and in the marketplace. And by listening to the wisdom of our
+own bodies, we can interpret the full spectrum of communication that
+becomes available.
+Why is listening important? And why do so many people complain, “no
+one listens around here!”? If we consider our education, most of us
+have not been taught how to listen. We have lots of classes on
+speaking, writing, and how to express ourselves and communicate
+clearly. But when it comes to listening, we think we already know how
+to do it. And if we aren’t listening, all we have to do is focus on hearing
+what someone is saying. Hmmmm...a missing skill in almost every
+corporate environment, community organization, family, and
+relationship, and most people think they know how to do it. So why do
+we hear the complaint so often, “You’re not listening to me!”
+According to a study on employee commitment, how well employees
+perceive that their boss listens to them affects how they view their job,
+as well as their entire commitment to an organization4 . I want to
+emphasize here how important this statement is. Listening is not a nice
+4 Lobdell, Christine L., Sonoda, Devin T., and Arnold, William E., “The Influence of
+Perceived Supervisor Listening Behavior on Employee Commitment”, Journal of the
+International Listening Association, Volume 7, 1993.
+
+
+skill to have. It is imperative that we become good listeners if we want
+to be successful in today’s business world.
+
+LISTENING VALIDATES SPEAKING
+
+We speak to be listened to. Therefore, listening validates the speaker.
+And when someone has the experience of not being listened to, they
+feel invalidated. After several attempts to “be heard”, most of us stop
+attempting to communicate, close off the opportunity to speak, and at
+the most extreme, get resigned or resentful towards those who “aren’t
+listening”, or to some general authority, organization, or life as a whole.
+On the positive side of the spectrum, studies indicate that simply
+listening with full presence validates the speaker to a point that stress
+and frustration can be relieved, general well-being can be improved,
+and relationships can be mended and re-vitalized. Therapists and
+doctors have reported that significant progress and healing can happen
+by listening deeply, even when the listener does not say or do anything
+else5.
+So why are we a culture of non-listeners? My premise is that we do not
+know how to listen. Deep listening requires using all our senses,
+dropping our own inner talk, staying centered and fully present to the
+person speaking, as though they are the most precious being to us in the
+moment of our conversation. This level of listening is so rare, that
+when it happens, we feel cherished, special, and completely validated
+by the person who has given us the gift of their time and attention. We
+5 Shafir, Rebecca Z. The Zen of Listening: Mindful Communication in the Age of
+Distraction. Quest Books, 2006.
+Nichols, Michael P. The Lost Art of Listening: How Learning to Listen Can Improve
+Relationships. The Guilford Press, 1995.
+
+can learn to listen this way to everyone we are in conversation with. It
+requires practice, changing habits, and a willingness to be a beginner,
+learning to listen with all our senses6. Being a good listener is easy
+once we learn how. Learning how means first recognizing all the ways
+we don’t listen, accepting our habits and those patterns that prevent
+listening, and finally changing our habits by practicing until we have
+new habits that promote deep listening.
+We normally assume that to listen to other people we just need to
+expose ourselves to what they say: be with them, talk to them, ask
+questions and listening will simply happen. For listening deeply, this is
+not enough.
+The prevailing understanding of communication is based on the notion
+of transmission of information, developed from communication
+engineering (concerned with communication between machines). This
+framework is useful in addressing technical broadcasting issues, but is
+deficient when used to understand human communication.
+When we deal with human communication the issue of meaning
+becomes critical, since we must consider how people understand what
+is being said. Human beings, like all living beings, are closed systems,
+i.e., structurally determined units. This means that what happens to us
+in communicative interactions is determined more by our own structure
+and less by the perturbing agent (i.e., the speaker). So a speaker says
+what he or she says, and the person “listening” not only hears the
+words, but more importantly, also interprets the words from their own
+
+6 Putnoi, Johanna. Senses Wide Open: The Art and Practice of Living in Your Body.
+Ulysses Press, 2000.
+
+world of experience, history, and cultural upbringing. Environmental
+disturbances, i.e., things that occur from the outside, only “trigger” our
+responses within the range of possibilities allowed by our biology. So,
+for example, we don’t see the colors that are out there, only the colors
+that our sensorial and nervous systems allow us to see. In the same
+way, the sounds that we can hear are determined by our biological
+structure. And the meanings we interpret are determined by our
+history, cultural environment, and upbringing.
+“Saying does not ensure listening...the phenomenon of
+communication in human beings depends not on what is
+transmitted, but on what happens to the person who receives it”.
+Humberto Maturana7
+Even though it is biologically rooted and rests on the phenomenon of
+hearing, listening is not hearing. Listening pertains to the domain of
+language, which includes all of our social interactions with others.
+What differentiates listening from hearing is the fact that when we
+listen we do so in a world of our own individual interpretation.
+Listening always implies interpretative understanding. When we
+ascribe an interpretation to a sound, we move from just hearing to the
+phenomenon of listening. We can listen when there are no sounds.
+Silence, gestures, body postures, and movements all can be and are
+interpreted.
+This primer contains the practices that can teach us to be better
+listeners, opening our senses and awareness, and training our
+sensitivity. When we learn to be centered and present, we can listen to
+7 Maturana, Humberto R., and Varela, Francisco, J. The Tree of Knowledge: The
+Biological Roots of Human Understanding. Shambala, New Science Library, 1987.
+
+another person with all our senses: seeing their bodies (if we are with
+them in person) or other images, hearing their words, feeling what their
+speaking and presence produces in us by noting how we feel, what we
+smell, and even sometimes what we taste.
+Try This:
+Sit comfortably with your feet on the floor, back straight, arms relaxed,
+shoulders relaxed, jaw dropped, muscles around your eyes relaxed, and
+breathing deep. Then begin noticing:
+
+• What sounds do you hear?
+
+• What does the air feel like? Do you feel any movement? Is it
+warm? Cool? Where do you feel the air?
+
+• What aromas do you smell?
+
+• What tastes are you tasting?
+
+• What images do you see, either by looking externally, or
+closing your eyes and visualizing?
+
+Now drop more deeply into your self.
+
+• What sounds do you hear from inside your body?
+
+
+• What do you feel? What are you aware of?
+
+• What aromas do you smell?
+
+• What do you taste?
+
+• What images do you see?
+
+Take a few moments to write down what you experienced during this
+exercise. The more you practice becoming aware of what all your
+senses are perceiving, the more deeply you will begin to listen.
+When we listen with all our senses, conversations and the happenings
+of every day life can be amazing and transformative. As you work with
+each of the next chapters, opening your senses, becoming more
+sensitive to what you’re hearing, feeling, tasting smelling and seeing,
+remember this possibility. And may your conversations and daily
+actions become even more amazing and transformative.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lb7-ax-zVd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JBP-u7-aTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2245.5999999999999" y="1618.7406296851575"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kSh-Ns-3qE">
