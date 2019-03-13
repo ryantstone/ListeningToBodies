@@ -43,12 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94015125223965C100BC8493 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				945950CC21F2910400DF128C /* breathing_practices.mp3 */,
+				945950CE21F2910F00DF128C /* body_scan.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		94A0DBB921ECF6E000434710 = {
 			isa = PBXGroup;
 			children = (
 				94A0DBC421ECF6E000434710 /* ListeningToBodies */,
-				945950CC21F2910400DF128C /* breathing_practices.mp3 */,
-				945950CE21F2910F00DF128C /* body_scan.mp3 */,
+				94015125223965C100BC8493 /* Audio */,
 				94A0DBC321ECF6E000434710 /* Products */,
 			);
 			sourceTree = "<group>";

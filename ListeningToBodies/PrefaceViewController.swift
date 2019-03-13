@@ -11,27 +11,50 @@ import AVFoundation
 
 class PrefaceViewController: UIViewController {
 
-    var audioPlayer: AVAudioPlayer?
+    var scanPlayer: AVAudioPlayer
+    var breathingPlayer: AVAudioPlayer
+    
+    required init?(coder aDecoder: NSCoder) {
+        let scanURL = Bundle.main.url(forResource: "body_scan", withExtension: "mp3")!
+        scanPlayer = try! AVAudioPlayer(contentsOf: scanURL)
+        
+        let breathingURL = Bundle.main.url(forResource: "breathing_practices", withExtension: "mp3")!
+        breathingPlayer = try! AVAudioPlayer(contentsOf: breathingURL)
+        
+        super.init(coder: aDecoder)
+    }
+
+    @IBOutlet weak var prefaceTextView: UITextView!
     
     @IBAction func bsClicked(_ sender: UIButton) {
-    }
-    @IBAction func bpClicked(_ sender: UIButton) {
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if scanPlayer.isPlaying == false {
+            scanPlayer.play()
+        } else {
+            scanPlayer.pause()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func bpClicked(_ sender: UIButton) {
+        if breathingPlayer.isPlaying == false {
+            breathingPlayer.play()
+        } else {
+            breathingPlayer.pause()
+        }
     }
-    */
-
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        scanPlayer.prepareToPlay()
+        breathingPlayer.prepareToPlay()
+        
+//        prefaceTextView.textColor = .darkText
+//        print(prefaceTextView.textStorage)
+//        let mutableAttrString = NSMutableAttributedString(string: prefaceTextView.text)
+//        let sourceRange = //
+//
+//            mutableAttrString.addAttribute(.foregroundColor, value: UIColor.white, range: sourceRange)
+//        prefaceTextView.attributedText = mutableAttrString
+    
+    }
 }
