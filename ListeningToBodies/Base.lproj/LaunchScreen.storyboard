@@ -26,35 +26,60 @@
                                     <constraint firstAttribute="height" constant="285" id="kWR-d1-VIC"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LISTENING TO BODIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNK-xH-hiS">
-                                <rect key="frame" x="26" y="486" width="323" height="38.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for Coaches, Managers and Executives" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2i-Xt-KaE">
-                                <rect key="frame" x="39" y="569.5" width="297" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Somatic Primer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUr-5r-aCt">
-                                <rect key="frame" x="95" y="534.5" width="185.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-oC-vaU">
+                                <rect key="frame" x="19.5" y="70" width="336" height="96"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LISTENING TO BODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNK-xH-hiS">
+                                        <rect key="frame" x="0.0" y="0.0" width="336" height="26.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Somatic Primer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUr-5r-aCt">
+                                        <rect key="frame" x="0.0" y="32.5" width="336" height="31.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for Coaches, Managers and Executives" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2i-Xt-KaE">
+                                        <rect key="frame" x="0.0" y="70" width="336" height="26"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <color key="textColor" red="0.95860511059999998" green="0.93187934159999997" blue="0.33507704729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tUr-5r-aCt" firstAttribute="centerY" secondItem="4Em-oC-vaU" secondAttribute="centerY" id="st8-Hi-kV1"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ChO-9v-Msn">
+                                <rect key="frame" x="89" y="526" width="197.5" height="56"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suzanne Zeman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOu-AM-1PD">
+                                        <rect key="frame" x="28" y="0.0" width="141" height="24"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Somatic Coach" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1z-dc-bFv">
+                                        <rect key="frame" x="0.0" y="32" width="197.5" height="24"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.37647058820000001" green="0.1176470588" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="h2i-Xt-KaE" firstAttribute="top" secondItem="tUr-5r-aCt" secondAttribute="bottom" constant="5" id="1ya-ZR-LoK"/>
+                            <constraint firstItem="4Em-oC-vaU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="4oD-vg-7pZ"/>
                             <constraint firstItem="4HU-sM-7az" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5PU-4V-zjL"/>
-                            <constraint firstItem="tUr-5r-aCt" firstAttribute="top" secondItem="hNK-xH-hiS" secondAttribute="bottom" constant="10" id="AHX-qH-h6N"/>
                             <constraint firstItem="4HU-sM-7az" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BbJ-iO-gC0"/>
-                            <constraint firstItem="hNK-xH-hiS" firstAttribute="top" secondItem="4HU-sM-7az" secondAttribute="bottom" constant="10" id="OVq-tD-ZS7"/>
-                            <constraint firstItem="tUr-5r-aCt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qoi-kV-VXD"/>
-                            <constraint firstItem="hNK-xH-hiS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZbI-M6-PiX"/>
-                            <constraint firstItem="h2i-Xt-KaE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zX5-3T-y0D"/>
+                            <constraint firstItem="4Em-oC-vaU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CPC-8H-Fj9"/>
+                            <constraint firstItem="ChO-9v-Msn" firstAttribute="top" secondItem="4HU-sM-7az" secondAttribute="bottom" constant="50" id="LRY-Po-ZUm"/>
+                            <constraint firstItem="4HU-sM-7az" firstAttribute="top" secondItem="4Em-oC-vaU" secondAttribute="bottom" constant="25" id="e55-e5-amz"/>
+                            <constraint firstItem="4Em-oC-vaU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vkU-5l-L8y"/>
+                            <constraint firstItem="ChO-9v-Msn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x1q-iD-Qwj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
