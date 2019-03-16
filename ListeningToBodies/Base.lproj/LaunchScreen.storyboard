@@ -21,6 +21,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-sM-7az">
                                 <rect key="frame" x="45" y="191" width="285" height="285"/>
                                 <color key="backgroundColor" red="0.87100893259048462" green="0.39398312568664551" blue="0.30030477046966553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="daa-s1-rnk"/>
+                                    <constraint firstAttribute="height" constant="285" id="kWR-d1-VIC"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LISTENING TO BODIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNK-xH-hiS">
                                 <rect key="frame" x="26" y="486" width="323" height="38.5"/>

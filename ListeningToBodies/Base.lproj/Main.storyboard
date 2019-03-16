@@ -28,14 +28,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-U0-4E7">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-U0-4E7">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="cYd-U0-4E7" secondAttribute="trailing" constant="8" id="4aY-5F-gG8"/>
+                                                <constraint firstItem="cYd-U0-4E7" firstAttribute="leading" secondItem="9yJ-e2-vps" secondAttribute="leading" constant="8" id="Qap-3s-Iqf"/>
+                                                <constraint firstItem="cYd-U0-4E7" firstAttribute="centerY" secondItem="9yJ-e2-vps" secondAttribute="centerY" id="t9j-Ex-P9C"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="0pk-Vh-7lT" kind="show" id="JEh-mA-ieC"/>
@@ -48,14 +52,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preface: About Somatic Business Coaching" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-IG-CeX">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preface: About Somatic Business Coaching" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9j-IG-CeX">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="m9j-IG-CeX" firstAttribute="centerY" secondItem="kxd-NH-Yya" secondAttribute="centerY" id="NwN-YS-mJs"/>
+                                                <constraint firstItem="m9j-IG-CeX" firstAttribute="leading" secondItem="kxd-NH-Yya" secondAttribute="leading" constant="8" id="QJH-Qs-hff"/>
+                                                <constraint firstAttribute="trailing" secondItem="m9j-IG-CeX" secondAttribute="trailing" constant="8" id="YfE-ja-cWX"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Bo2-h4-mGM" kind="show" id="6fh-H9-yZW"/>
@@ -68,14 +76,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rQ-mc-gXV">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rQ-mc-gXV">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="0rQ-mc-gXV" secondAttribute="trailing" constant="8" id="6Dx-SJ-44B"/>
+                                                <constraint firstItem="0rQ-mc-gXV" firstAttribute="leading" secondItem="8sj-Fj-gIF" secondAttribute="leading" constant="8" id="7Or-X3-eux"/>
+                                                <constraint firstItem="0rQ-mc-gXV" firstAttribute="centerY" secondItem="8sj-Fj-gIF" secondAttribute="centerY" id="Vkb-Kr-Vl0"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="AOq-D3-lBu" kind="show" id="Bt7-A8-Ans"/>
@@ -88,14 +100,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sensation and Body Scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etK-8n-dI9">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensation and Body Scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etK-8n-dI9">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="etK-8n-dI9" firstAttribute="centerY" secondItem="aTx-qE-bv6" secondAttribute="centerY" id="bpB-Uw-cBo"/>
+                                                <constraint firstItem="etK-8n-dI9" firstAttribute="leading" secondItem="aTx-qE-bv6" secondAttribute="leading" constant="8" id="lhr-Qr-Z6Y"/>
+                                                <constraint firstAttribute="trailing" secondItem="etK-8n-dI9" secondAttribute="trailing" constant="8" id="xY1-Ce-gY4"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="t9g-Gq-GHp" kind="show" id="hcb-Vk-fGh"/>
@@ -108,14 +124,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breathing and Breathing Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEJ-jL-K0n">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breathing and Breathing Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEJ-jL-K0n">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="CEJ-jL-K0n" secondAttribute="trailing" constant="8" id="IxQ-87-XRy"/>
+                                                <constraint firstItem="CEJ-jL-K0n" firstAttribute="leading" secondItem="iy9-Cl-D1O" secondAttribute="leading" constant="8" id="VDH-cY-o4V"/>
+                                                <constraint firstItem="CEJ-jL-K0n" firstAttribute="centerY" secondItem="iy9-Cl-D1O" secondAttribute="centerY" id="n96-mn-TZV"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="1YR-GB-a7J" kind="show" id="CWV-WH-FHi"/>
@@ -128,14 +148,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Voice Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-Ff-dN9">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voice Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-Ff-dN9">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0IQ-Ff-dN9" firstAttribute="centerY" secondItem="qWL-iM-tvw" secondAttribute="centerY" id="0aI-az-JHJ"/>
+                                                <constraint firstItem="0IQ-Ff-dN9" firstAttribute="leading" secondItem="qWL-iM-tvw" secondAttribute="leading" constant="8" id="ebl-HZ-qaa"/>
+                                                <constraint firstAttribute="trailing" secondItem="0IQ-Ff-dN9" secondAttribute="trailing" constant="8" id="uTR-Ve-CAK"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="yTc-kM-uC9" kind="show" id="e6u-IZ-xRX"/>
@@ -148,14 +172,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listening to Bodies in Four Basic Moods" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3K-aj-diR">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listening to Bodies in Four Basic Moods" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3K-aj-diR">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="W3K-aj-diR" firstAttribute="leading" secondItem="BYr-ix-6rz" secondAttribute="leading" constant="8" id="WlI-Rk-sK9"/>
+                                                <constraint firstAttribute="trailing" secondItem="W3K-aj-diR" secondAttribute="trailing" constant="8" id="WlN-XD-MSh"/>
+                                                <constraint firstItem="W3K-aj-diR" firstAttribute="centerY" secondItem="BYr-ix-6rz" secondAttribute="centerY" id="cDI-Dz-0f3"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Jal-2j-3qC" kind="show" id="G4e-AN-Cp9"/>
@@ -168,14 +196,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry9-xN-Gmq">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Practices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry9-xN-Gmq">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ry9-xN-Gmq" firstAttribute="leading" secondItem="TQg-aq-MK1" secondAttribute="leading" constant="8" id="WSt-zQ-37L"/>
+                                                <constraint firstItem="ry9-xN-Gmq" firstAttribute="centerY" secondItem="TQg-aq-MK1" secondAttribute="centerY" id="mbg-1o-gJW"/>
+                                                <constraint firstAttribute="trailing" secondItem="ry9-xN-Gmq" secondAttribute="trailing" constant="8" id="sBs-fU-bq7"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="SvJ-z7-zbK" kind="show" id="cYh-H5-7SZ"/>
@@ -188,14 +220,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Getting Big: Practices to Expand to the Edge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8h6-Zn-Jv6">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Getting Big: Practices to Expand to the Edge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8h6-Zn-Jv6">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8h6-Zn-Jv6" firstAttribute="leading" secondItem="EO1-TU-BhJ" secondAttribute="leading" constant="8" id="DQF-W2-J1b"/>
+                                                <constraint firstAttribute="trailing" secondItem="8h6-Zn-Jv6" secondAttribute="trailing" constant="8" id="Yxb-Vp-Q0Y"/>
+                                                <constraint firstItem="8h6-Zn-Jv6" firstAttribute="centerY" secondItem="EO1-TU-BhJ" secondAttribute="centerY" id="r67-k8-mtm"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="7K5-MK-1Wb" kind="show" id="8mx-BX-pVN"/>
@@ -208,14 +244,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bW-W0-owl">
-                                                    <rect key="frame" x="16" y="11" width="276" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bW-W0-owl">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7bW-W0-owl" firstAttribute="leading" secondItem="f9r-FS-faY" secondAttribute="leading" constant="8" id="9dW-FR-ETT"/>
+                                                <constraint firstItem="7bW-W0-owl" firstAttribute="centerY" secondItem="f9r-FS-faY" secondAttribute="centerY" id="jRa-ga-QZV"/>
+                                                <constraint firstAttribute="trailing" secondItem="7bW-W0-owl" secondAttribute="trailing" constant="8" id="pwQ-dB-hWt"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="JxA-fA-OM1" kind="show" id="Xvn-Ey-WOV"/>
@@ -233,7 +273,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEF-Sh-maa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1774" y="775"/>
+            <point key="canvasLocation" x="1773.5999999999999" y="774.96251874062978"/>
         </scene>
         <!--Introduction-->
         <scene sceneID="ra2-cR-b26">
@@ -244,9 +284,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-gH-Y4n">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="8" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
+                                <string key="text">The body is where we experience life. It is where we live our relationships, express moods and emotions, learn, imagine the future, redeem our past, build commitments with others, protect our loved ones, and assert our dignity. Without the body there would be no possibility for tasting, hearing, smelling, feeling. There would be no thoughts, reflection, or awareness. There would be no presence to interact with itself or others, no basis for experience.
 
 Animals rely on their senses to get information about what is dangerous, nurturing, safe, and tasty. Born with this capacity, we have intellectualized and analyzed so many aspects of our lives that we are losing the skill of paying attention to our senses. In short, we as human beings have ignored much of our animal nature, often to the detriment of our effectiveness in the world.
 
@@ -257,17 +297,17 @@ the subject matter of my research from polymeric prototypes to studying people, 
 
 In addition to this primer, you can purchase a CD with Body Scanning and Breathing Practices from my website. The CD has helped people who are new to these practices get started. 
  Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  (1) Ontology is the study of being. Ontological philosophy is an inquiry into the nature of human existence. In the latter part of the twentieth century, the integration of developments in the fields of philosophy and biology produced a discipline called Ontological Design by Dr. Fernando Flores. Julio Olalla and Rafael Echeverria developed the resultant coaching methodology and coaching practice, called Ontological Coaching. This discipline works with existential issues of meaning, fulfillment, happiness and worthiness in client’s personal and professional lives.  For an in-depth discussion of Ontological Coaching, see Coaching to the Human Soul: Ontological Coaching and Deep Change, Vol.I, by Alan Seiler (Publishing Solutions Pty Ltd, 2007). 
-</mutableString>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="trailing" secondItem="C4m-US-9G5" secondAttribute="trailing" id="ZaE-8t-BPQ"/>
-                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="bottom" secondItem="C4m-US-9G5" secondAttribute="bottom" id="nd1-j2-gDh"/>
-                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="top" secondItem="C4m-US-9G5" secondAttribute="top" id="qqM-Wl-tki"/>
-                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="leading" secondItem="C4m-US-9G5" secondAttribute="leading" id="uIM-ux-wmX"/>
+                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="leading" secondItem="C4m-US-9G5" secondAttribute="leading" constant="8" id="M43-q1-zRN"/>
+                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="top" secondItem="C4m-US-9G5" secondAttribute="top" id="Ott-TU-eF2"/>
+                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="trailing" secondItem="C4m-US-9G5" secondAttribute="trailing" constant="8" id="ZVc-ef-ztK"/>
+                            <constraint firstItem="Tgr-gH-Y4n" firstAttribute="bottom" secondItem="C4m-US-9G5" secondAttribute="bottom" id="y0j-t8-Vyp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C4m-US-9G5"/>
                     </view>
@@ -303,8 +343,7 @@ If I wish to be open to more possibilities, I can practice feeling my feet firml
 
 One of the most powerful somatic business coaching practices is simply to notice what is happening in the body at any given moment. "When I pay attention to body reactions," says one executive, "it's relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter - two areas I care about."   Increased personal awareness leads to increased interpersonal awareness. "Because I am more aware of my own energy and mood," says another executive, "I am also aware of the energy and mood in staff meetings and other business contexts. It's so much easier to be connected with other people at work, even people I used to consider difficult."  In many ways, somatic business coaching practices enhance traditional business wisdom. Leaders have long been expected to observe and produce ambitious moods and trust in their teams. Reading a book on trust may promote intellectual understanding, but if someone does not embody this understanding, they cannot act on it. A person may be sincere and value trust. But if their breath is high and rapid in their tight chest, if they are squeezing their eyes and freezing a smile on their face, they will have difficulty trusting, and it will be difficult for others to trust them. When they drop their breath, open their eyes, and relax, they can be authentic and be more available to others as well. 
 In our learning together, I will provide the basic principles that will help you increase your awareness of your body, providing access to the wisdom that will help you to live a more fully expressed and satisfying life. Doing the practices may mean making some changes, but you will be the one who decides what you want to change based on the benefits you see right from the beginning.</string>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-8J-ZbM">
@@ -348,16 +387,12 @@ In our learning together, I will provide the basic principles that will help you
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpL-LO-qcN">
+                                <rect key="frame" x="8" y="64" width="359" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">“...too many executives think they are wonderful with people because they talk well. They don’t realize that being wonderful with people means ‘listening’ well.”
-
-Peter Drucker(2)  We normally assume that we listen to words. A study at the University of California in 1991, however, indicated that only 7% of any communication is the choice of words; 93% is conveyed through body language and tone of voice3. So how do we listen to not only the 7%, but the other 93% as well? Can we and do we actually use all of our senses to listen deeply? 
+                                <mutableString key="text">“...too many executives think they are wonderful with people because they talk well. They don’t realize that being wonderful with people means ‘listening’ well.” Peter Drucker(2)  We normally assume that we listen to words. A study at the University of California in 1991, however, indicated that only 7% of any communication is the choice of words; 93% is conveyed through body language and tone of voice3. So how do we listen to not only the 7%, but the other 93% as well? Can we and do we actually use all of our senses to listen deeply? 
 These are the questions I have repeatedly asked myself in the many years I have been working with people, as a body worker, Reiki practitioner, sales manager, entrepreneur, business and communications consultant, and executive coach. The conclusion I have come to is that we can educate and train ourselves to listen with full awareness, using all our senses to “hear” and interpret what others are conveying. We can all learn to do this. What’s required to learn is focusing our attention on the wisdom of the body, learning to open all our senses, and being fully present in the moment with each person we are listening to. This way we can listen to the words spoken, emotions, moods, breathing, and voice of the people we interact with at work, at home, and in the marketplace. And by listening to the wisdom of our own bodies, we can interpret the full spectrum of communication that becomes available.
- Why is listening important? And why do so many people complain, “no one listens around here!”? If we consider our education, most of us have not been taught how to listen. We have lots of classes on speaking, writing, and how to express ourselves and communicate clearly. But when it comes to listening, we think we already know how to do it. And if we aren’t listening, all we have to do is focus on hearing what someone is saying. Hmmmm...a missing skill in almost every corporate environment, community organization, family, and
-relationship, and most people think they know how to do it. So why do we hear the complaint so often, “You’re not listening to me!” According to a study on employee commitment, how well employees perceive that their boss listens to them affects how they view their job, as well as their entire commitment to an organization(4) . I want to emphasize here how important this statement is. Listening is not a nice skill to have. It is imperative that we become good listeners if we want to be successful in today’s business world.
+ Why is listening important? And why do so many people complain, “no one listens around here!”? If we consider our education, most of us have not been taught how to listen. We have lots of classes on speaking, writing, and how to express ourselves and communicate clearly. But when it comes to listening, we think we already know how to do it. And if we aren’t listening, all we have to do is focus on hearing what someone is saying. Hmmmm...a missing skill in almost every corporate environment, community organization, family, and relationship, and most people think they know how to do it. So why do we hear the complaint so often, “You’re not listening to me!” According to a study on employee commitment, how well employees perceive that their boss listens to them affects how they view their job, as well as their entire commitment to an organization(4) . I want to emphasize here how important this statement is. Listening is not a nice skill to have. It is imperative that we become good listeners if we want to be successful in today’s business world.
 
 LISTENING VALIDATES SPEAKING
 
@@ -367,10 +402,7 @@ We speak to be listened to. Therefore, listening validates the speaker. And when
 not enough.
  The prevailing understanding of communication is based on the notion of transmission of information, developed from communication engineering (concerned with communication between machines). This framework is useful in addressing technical broadcasting issues, but is deficient when used to understand human communication.
  When we deal with human communication the issue of meaning becomes critical, since we must consider how people understand what is being said. Human beings, like all living beings, are closed systems, i.e., structurally determined units. This means that what happens to us in communicative interactions is determined more by our own structure and less by the perturbing agent (i.e., the speaker). So a speaker says what he or she says, and the person “listening” not only hears the words, but more importantly, also interprets the words from their own world of experience, history, and cultural upbringing. Environmental disturbances, i.e., things that occur from the outside, only “trigger” our responses within the range of possibilities allowed by our biology. So, for example, we don’t see the colors that are out there, only the colors that our sensorial and nervous systems allow us to see. In the same way, the sounds that we can hear are determined by our biological structure. And the meanings we interpret are determined by our history, cultural environment, and upbringing.
- “Saying does not ensure listening...the phenomenon of
-communication in human beings depends not on what is
-transmitted, but on what happens to the person who receives it”.
-Humberto Maturana(7)
+ “Saying does not ensure listening...the phenomenon of communication in human beings depends not on what is transmitted, but on what happens to the person who receives it”. Humberto Maturana(7)
  Even though it is biologically rooted and rests on the phenomenon of hearing, listening is not hearing. Listening pertains to the domain of language, which includes all of our social interactions with others. What differentiates listening from hearing is the fact that when we listen we do so in a world of our own individual interpretation. Listening always implies interpretative understanding. When we ascribe an interpretation to a sound, we move from just hearing to the phenomenon of listening. We can listen when there are no sounds. Silence, gestures, body postures, and movements all can be and are interpreted.
  This primer contains the practices that can teach us to be better listeners, opening our senses and awareness, and training our sensitivity. When we learn to be centered and present, we can listen to another person with all our senses: seeing their bodies (if we are with them in person) or other images, hearing their words, feeling what their speaking and presence produces in us by noting how we feel, what we smell, and even sometimes what we taste.
  Try This:
@@ -404,11 +436,17 @@ Take a few moments to write down what you experienced during this exercise. The 
  When we listen with all our senses, conversations and the happenings of every day life can be amazing and transformative. As you work with each of the next chapters, opening your senses, becoming more sensitive to what you’re hearing, feeling, tasting smelling and seeing, remember this possibility. And may your conversations and daily actions become even more amazing and transformative.  (2) Drucker, Peter. Managing the Non-Profit Organization. Collins Publishers, 2006.
 (3) Wolvin, Andrew D. Communication Education, Volume 40, No.2, April, 1991.
 (4) Lobdell, Christine L., Sonoda, Devin T., and Arnold, William E., “The Influence of Perceived Supervisor Listening Behavior on Employee Commitment”, Journal of the International Listening Association, Volume 7, 1993. (5) Shafir, Rebecca Z. The Zen of Listening: Mindful Communication in the Age of Distraction. Quest Books, 2006. Nichols, Michael P. The Lost Art of Listening: How Learning to Listen Can Improve Relationships. The Guilford Press, 1995. (6) Putnoi, Johanna. Senses Wide Open: The Art and Practice of Living in Your Body. Ulysses Press, 2000. (7) Maturana, Humberto R., and Varela, Francisco, J. The Tree of Knowledge: The Biological Roots of Human Understanding. Shambala, New Science Library, 1987.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rpL-LO-qcN" firstAttribute="top" secondItem="lb7-ax-zVd" secondAttribute="top" id="36p-D7-PcE"/>
+                            <constraint firstItem="lb7-ax-zVd" firstAttribute="trailing" secondItem="rpL-LO-qcN" secondAttribute="trailing" constant="8" id="3Yk-n3-ubB"/>
+                            <constraint firstItem="rpL-LO-qcN" firstAttribute="bottom" secondItem="lb7-ax-zVd" secondAttribute="bottom" id="SIZ-sz-5y7"/>
+                            <constraint firstItem="rpL-LO-qcN" firstAttribute="leading" secondItem="lb7-ax-zVd" secondAttribute="leading" constant="8" id="VRL-og-bdN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lb7-ax-zVd"/>
                     </view>
                 </viewController>
@@ -424,12 +462,10 @@ Take a few moments to write down what you experienced during this exercise. The 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0r-FT-Axb">
+                                <rect key="frame" x="8" y="64" width="359" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">"There is no way in which to understand the world without first detecting it through the radar-net of our senses."
-
-Diane Ackerman(8)
+                                <mutableString key="text">"There is no way in which to understand the world without first detecting it through the radar-net of our senses." Diane Ackerman(8)
 
 WHERE HAS OUR AWARENESS GONE?
 
@@ -535,17 +571,17 @@ Do the Body Scan again. When you have finished practicing the Body Scan a second
 IN SUMMARY
 
 Working with the body is where we as somatic coaches have the most leverage in helping our clients expand their repertoire of actions: actions that will help them achieve what they want more effectively and efficiently. Expanding this repertoire is contingent upon increasing somatic awareness. However, physiological, emotional, and spiritual awareness is only possible by connecting or in many cases reconnecting with our senses.
- The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  (8) Ackerman, Diane. A Natural History of the Senses. Peter Smith Publishers, 2002. (9) Strozzi Heckler, Richard. The Anatomy of Change: A Way to Move Through Life’s Transitions, North Atlantic Books, 1993.</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+ The Body Scan is a practice that will increase your sensitivity and awareness of your own state and your sensitivity towards the people around you. For coaches, managers and executives, this awareness will enable you to address somatic obstacles that interfere with your ability, and your clients’ and employees’ ability to move in ways that will bring about the fulfillment of your goals.  (8) Ackerman, Diane. A Natural History of the Senses. Peter Smith Publishers, 2002. (9) Strozzi Heckler, Richard. The Anatomy of Change: A Way to Move Through Life’s Transitions, North Atlantic Books, 1993.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="T0r-FT-Axb" firstAttribute="top" secondItem="W5P-rc-Ol4" secondAttribute="top" id="Lvj-bW-iSf"/>
-                            <constraint firstItem="T0r-FT-Axb" firstAttribute="trailing" secondItem="W5P-rc-Ol4" secondAttribute="trailing" id="P8F-7s-hfC"/>
-                            <constraint firstItem="T0r-FT-Axb" firstAttribute="bottom" secondItem="W5P-rc-Ol4" secondAttribute="bottom" id="Tll-mK-7Vi"/>
-                            <constraint firstItem="T0r-FT-Axb" firstAttribute="leading" secondItem="W5P-rc-Ol4" secondAttribute="leading" id="baW-p7-HIx"/>
+                            <constraint firstItem="T0r-FT-Axb" firstAttribute="bottom" secondItem="W5P-rc-Ol4" secondAttribute="bottom" id="064-UV-rHX"/>
+                            <constraint firstItem="T0r-FT-Axb" firstAttribute="leading" secondItem="W5P-rc-Ol4" secondAttribute="leading" constant="8" id="Isr-Gs-KnF"/>
+                            <constraint firstItem="W5P-rc-Ol4" firstAttribute="trailing" secondItem="T0r-FT-Axb" secondAttribute="trailing" constant="8" id="JMe-iU-Zze"/>
+                            <constraint firstItem="T0r-FT-Axb" firstAttribute="top" secondItem="W5P-rc-Ol4" secondAttribute="top" id="Mao-N9-gkE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W5P-rc-Ol4"/>
                     </view>
@@ -562,12 +598,10 @@ Working with the body is where we as somatic coaches have the most leverage in h
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-Jp-PA6">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-Jp-PA6">
+                                <rect key="frame" x="8" y="64" width="359" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">“Controlled deep breathing helps the body to transform the air we breathe into energy. The stream of energized air produced by...controlled deep breathing produces a current of inner energy which radiates throughout the entire body and can be channeled to the body areas that need it the most, on demand...you can use this current of inner energy to relieve muscular tension throughout the body, revitalize a tired mind, or soothe localized aches and pains.”
- Nancy Zi(10)
+                                <mutableString key="text">“Controlled deep breathing helps the body to transform the air we breathe into energy. The stream of energized air produced by...controlled deep breathing produces a current of inner energy which radiates throughout the entire body and can be channeled to the body areas that need it the most, on demand...you can use this current of inner energy to relieve muscular tension throughout the body, revitalize a tired mind, or soothe localized aches and pains.” Nancy Zi(10)
  Because of all the physiological factors affected by breathing, practices that help us breathe well also help us stay centered, calm, and therefore more effective in difficult situations.
 
 BREATHING DEEPLY HAS MANY BENEFITS
@@ -681,11 +715,17 @@ When all three of the above ways of breathing are integrated, you can breathe us
 When our somatic and energetic structure are open and extended, we are fully available, relaxed and ready to meet whatever comes our way with our full faculties prepared to respond. So not only is this the optimal way for us to breathe in preparation for working with our clients, but we can also help our clients by introducing this way of breathing into their program of practices.  (10) Zi, Nancy. The Art of Breathing: Six Simple Lessons to Improve Performance, Health
 and Well-Being. Frog, Ltd., 2002.
 (11) David, Marc. The Slow Down Diet. Healing Arts Press, 2005.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hM6-Jp-PA6" firstAttribute="top" secondItem="inr-02-KiC" secondAttribute="top" id="8nC-I5-Mwu"/>
+                            <constraint firstItem="inr-02-KiC" firstAttribute="trailing" secondItem="hM6-Jp-PA6" secondAttribute="trailing" constant="8" id="NIK-vn-Tob"/>
+                            <constraint firstItem="hM6-Jp-PA6" firstAttribute="bottom" secondItem="inr-02-KiC" secondAttribute="bottom" id="mZS-hS-qVK"/>
+                            <constraint firstItem="hM6-Jp-PA6" firstAttribute="leading" secondItem="inr-02-KiC" secondAttribute="leading" constant="8" id="nSU-uY-Hjn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="inr-02-KiC"/>
                     </view>
                 </viewController>
@@ -701,11 +741,10 @@ and Well-Being. Frog, Ltd., 2002.
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Sw-7qO">
-                                <rect key="frame" x="8" y="40" width="359" height="587"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Sw-7qO">
+                                <rect key="frame" x="8" y="64" width="359" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."  Anne Karpf(12) 
+                                <string key="text">"Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest."  Anne Karpf(12) 
  What is your voice saying about you? What happens when people hear  your voice? Is your voice strained, constricted, or tense? Or is it  relaxed, full, and resonant? These are questions you’ll be considering  and working with in this chapter. 
 
 
@@ -741,18 +780,24 @@ your upper chest, breathing so that your throat is slightly constricted,  and th
  Listen to the voices you hear, not only from your clients, but also on the radio and television. Identify what you can distinguish from each person’s voice. What can you tell about their breathing from their voice? Is what you’re hearing consistent with the person they are, or the character they are conveying? 
  What practices can you ask your clients to do that will help them have a full and expressive voice? What practices will help them soften their voice, not decreasing the volume, but making it easier to be listened to? What practices will produce a deeper, more grounded, and stronger voice? 
  In the next two chapters we will be working with mood and centering. As you learn more about these topics, remember to bring your observations and what you’re learning about voice to understand how they can impact your work and expand your repertoire of tools and practices. 
- (12) Karpf, Anne. The Human Voice: How This Extraordinary Instrument Reveals Essential Clues About Who We Are. Bloomsbury Publishing, 2006.  (13) Zi, Nancy. The Art of Breathing: Six Simple Lessons to Improve Performance, Health and Well-Being. Frog, Ltd., 2002.  (14) Whyte, David. The Heart Aroused: Poetry and the Preservation of the Soul in Corporate America. Doubleday, 1994 </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+ (12) Karpf, Anne. The Human Voice: How This Extraordinary Instrument Reveals Essential Clues About Who We Are. Bloomsbury Publishing, 2006.  (13) Zi, Nancy. The Art of Breathing: Six Simple Lessons to Improve Performance, Health and Well-Being. Frog, Ltd., 2002.  (14) Whyte, David. The Heart Aroused: Poetry and the Preservation of the Soul in Corporate America. Doubleday, 1994 </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FG8-i6-Upe" firstAttribute="trailing" secondItem="45i-Sw-7qO" secondAttribute="trailing" constant="8" id="Kcx-Eb-B0T"/>
+                            <constraint firstItem="45i-Sw-7qO" firstAttribute="bottom" secondItem="FG8-i6-Upe" secondAttribute="bottom" id="ZjO-Jb-zz5"/>
+                            <constraint firstItem="45i-Sw-7qO" firstAttribute="top" secondItem="FG8-i6-Upe" secondAttribute="top" id="aMh-iH-Laz"/>
+                            <constraint firstItem="45i-Sw-7qO" firstAttribute="leading" secondItem="FG8-i6-Upe" secondAttribute="leading" constant="8" id="sqh-Wj-Cq7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FG8-i6-Upe"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ohG-Kx-PCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4450" y="1621"/>
+            <point key="canvasLocation" x="4448.8000000000002" y="1620.5397301349326"/>
         </scene>
         <!--Listening to Bodies in Four Basic Moods-->
         <scene sceneID="FLK-HM-iFW">
@@ -762,12 +807,10 @@ your upper chest, breathing so that your throat is slightly constricted,  and th
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-xO-5yX">
-                                <rect key="frame" x="8" y="40" width="359" height="587"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-xO-5yX">
+                                <rect key="frame" x="8" y="64" width="359" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">“No matter where we are and no matter what we are doing, we human beings are always in a mood. Ordinarily we don’t choose or control our moods – we just find ourselves in them. Once in a particular mood, we become what that mood allows us to be.” 
-Rafael Echeverria15 
+                                <mutableString key="text">“No matter where we are and no matter what we are doing, we human beings are always in a mood. Ordinarily we don’t choose or control our moods – we just find ourselves in them. Once in a particular mood, we become what that mood allows us to be.”  Rafael Echeverria15 
  Moods are fundamental to human beings. We live in moods. Certain actions are available or not available to us when we're in particular 
 moods. Our bodies both determine what moods we are in and what moods are available to us, and our moods can also determine how our bodies are shaped. In that way, moods are a physical presentation of our assessments and opinions. 
  When I say, “I feel great today!” I will most likely be standing tall, in an open posture, seeing a broad vista, and ready to act on opportunities that come my way. On the other hand, when I say to myself or to a colleague, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in," my body will most likely be slumped over, collapsed, I’m looking down, and not much is possible. Imagine being slumped over, sitting at your desk and saying "I feel great today!!" The shape of a bent over, collapsed body doesn't match a mood of feeling great. Similarly, imagine standing tall with arms outstretched to the sky saying, "This company stinks, it's never going to change, and I'm not appreciated for all the hard work I've put in." The shape and the speaking are not coherent. So moods and the shapes of bodies in those moods predispose us to certain ways of thinking, speaking, and acting. 
@@ -790,7 +833,8 @@ Adapted from the writings and teachings of Dr. Fernando Flores and Dr. Rafael Ec
  There are many variations of these moods, and each has a particular background conversation and body shape that produces the mood. 
  Try This: 
  The following expressions, whether spoken or not, can help you to recognize the background thinking of each mood. See what happens to your body as you “try on” each expression. Repeat the expression several times until your body takes on the mood. Then pay attention to the shape that you find yourself in. 
- POSITIVE MOODS ambition - There are future possibilities for me here and I am committed to take action to make them happen. 
+ POSITIVE MOODS
+ ambition - There are future possibilities for me here and I am committed to take action to make them happen. 
  serenity  - Possibilities may be opened or closed for me at any time, and I am grateful to life. 
  trust - Based on your past record (performance and actions), I assess that you will fulfill your promises to me. 
  acceptance - Possibilities may be closed for me here and I am still grateful to life. 
@@ -813,17 +857,23 @@ Most people look for coaches who can help them make some change or shift in thei
  For example, I was in a mood of resentment for years about the work I was doing. No matter what I did, it was not enough for me to be satisfied. As a research chemist, I enjoyed working in the laboratory, but I wanted to be working with people. In business, I had other complaints, or dissatisfactions. After a string of starting different career paths, I started thinking about what happened at home while I was growing up. I remembered that we always waited for my Dad to come home, and then we sat down at the dinner table. Then Dad talked about his day. All we heard were complaints. My Dad supervised a warehouse crew, and we heard all the stories about how lazy this one was, how slow another one was, how the boss was pressuring him to get them to be more efficient, etc. etc. etc. He never spoke about himself, only about how wrong everyone else was, and how miserable it made him. It sounded like my liturgy when I came home! I began to see how the resentment about work became part of my heritage and embodiment. 
   To begin to change my view, I started journaling at the end of every workday, asking myself the questions, “What am I grateful for today? Who did something that I appreciated? Did I acknowledge the people working with me?” And similar questions to keep my thoughts focused in a positive direction. Prior to journaling, I did some deep breathing and centering practices. I did these practices for a year, focusing on my mood. At the end of that time, I was working joyfully, looking forward to my work every day. My stories at the end of the day were very different as well. And then I redesigned my work to be what I now see as the fulfillment of my purpose. It’s the work I’m still doing today, and loving every day of it. 
   15 Echeverria, Rafael. “On Moods and Emotions,” Mastering the Art of Professional Coaching, private publication, 1991. </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UZG-xO-5yX" firstAttribute="leading" secondItem="uSe-5D-qy0" secondAttribute="leading" constant="8" id="5Zk-Zh-bQt"/>
+                            <constraint firstItem="UZG-xO-5yX" firstAttribute="top" secondItem="uSe-5D-qy0" secondAttribute="top" id="Rxj-mX-VGP"/>
+                            <constraint firstItem="UZG-xO-5yX" firstAttribute="bottom" secondItem="uSe-5D-qy0" secondAttribute="bottom" id="ZHh-jW-xtM"/>
+                            <constraint firstItem="uSe-5D-qy0" firstAttribute="trailing" secondItem="UZG-xO-5yX" secondAttribute="trailing" constant="8" id="ZdA-0x-2AR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uSe-5D-qy0"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aBY-ZH-UmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5225" y="1620"/>
+            <point key="canvasLocation" x="5224.8000000000002" y="1619.6401799100452"/>
         </scene>
         <!--Basic Practices: Although interpreting the human voice is one of our most important daily social activities, the way we speak and hear remains almost entirely hidden, and unexplored. Those who develop a richer understanding of the voice are less likely to mishear their friends, lovers, rivals, and more able to intuit when people are being authentic or dishonest.  Anne Karpf12 What is your voice saying about you? What happens when people hear your voice? Is your voice strained, constricted, or tense? Or is it relaxed, full, and resonant? These are questions you’ll be considering and working with in this chapter.  12 Karpf, Anne. The Human Voice: How This Extraordinary Instrument Reveals Essential Clues About Who We Are. Bloomsbury Publishing, 2006.  Suzanne Zeman  56  IDENTITY  Identity can mean how we see ourselves as individuals and how we define ourselves, or it can mean the phenomenon of how we are known or seen by others, often different from the way we see ourselves. For the sake of coherence, the gap between how we know ourselves and how others see us becomes important. The smaller the gap, the stronger the coherence. Voice then becomes an important factor in how we appear to others, either in person or on the telephone. The physical voice, the sound produced by the vocal cords (or folds) and resonated by the cavities of the head, throat and torso, conveys qualities that a listener interprets. For example, if someone’s voice sounds sharp or piercing, the speaker may be seen as curt, unapproachable, angry, or mean. Conversely, someone who has a melodic, pleasant voice may be seen as friendly, approachable, or nice to be around. Think about what your voice says about you, and how others are impacted when they hear your voice. Voice can also have a broader, metaphorical meaning. Clients have come to me asking for help to “find my voice”. What does this mean? Usually, it means that a person wants to be able to speak what is real and authentic for them. So not only would we be working on the words they’re saying, the meaning they’re conveying, and the melody of the sounds, but also looking deeper into the person they are becoming and how they want to express what they are discovering that has value for them. Voice is the carrier of that expression. When you want to speak about what is meaningful and important to you, you’ll want your voice to be able to express that meaning in a way  Listening to Bodies  57 the your listeners can hear the depth and importance of your message. The quality of your voice can convey what you want, or the quality can convey an entirely different characteristic.  QUALITY  “No other human activity is more influenced by breathing than vocalization.”  Nancy Zi13 How we are breathing directly affects the quality of our voice. Experiment with this yourself. Bring your voice all the way up into your upper chest, breathing so that your throat is slightly constricted, and then say your name out loud. You might also try reading a few sentences out loud to have more words to speak and feel. Now drop your breath to the level of your ribs (mid level breathing), relax your throat, and as you speak, feel the vibration of your voice in the upper part of your torso. What does this voice feel like? What does it convey? And drop your breath all the way to your belly, relaxing your torso and diaphragm so your voice resonates all the way into your torso. As you say your name now, how does it sound to you? Ask a friend or colleague what happens when they hear your voice in these different ways. What does it produce for them? And which voice is most coherent with the identity you want to produce in different situations?  13 Zi, Nancy. The Art of Breathing: Six Simple Lessons to Improve Performance, Health and Well-Being. Frog, Ltd., 2002.  Suzanne Zeman  58 As a professional? With your friends? With your family? In front of an audience?  CHOICE  I can remember one day when I was high school age answering the phone. It was my father’s boss. After the call, Dad said his boss asked the age of his little daughter. I was offended, but realized at that point that my high pitched voice was not sounding like the grown up woman I wanted to be seen as. In addition, when I went to college, my councilor recommended that I take a speech class to rid myself of the New Jersey accent that betrayed my origins. That was the last straw. I committed to retraining my voice. I listened to tapes, practiced breathing techniques, and even took some singing lessons. After a year, the quality of my normal speaking voice changed. I no longer had a regional accent, and did not sound like a child. In addition, the practices I did had other benefits that surprised me. My friends started asking me to help them think about challenging situations, I was sought out for advice, and generally being taken more seriously. I could still laugh out loud and giggle like a kid when having fun, so that didn’t change. However, my range of expression was expanding. I was learning how to use my voice as an instrument of deeper expression. In his book, The Heart Aroused: Poetry and the Preservation of the Soul in Corporate America David Whyte wrote a chapter called “Fire In the Voice”. Here is one of my favorite excerpts from that chapter:  Listening to Bodies  59 “The voice, after all, is entering the body of the listener and radically affecting his inner world. A word...is focused by the outer funnel of the ear, gathered on the membrane of the eardrum, and passed through a watchmaker's arrangement of three tiny bones to the salty fluid of the inner ear. This minuscule inner sea responds to sound the way the real sea responds to the moon, shifting with tidal currents hundreds of tiny hairs rooted in the auditory nerve cells. The emotional and imaginal world radiates out from those ear follicles through the whole length of the body on a tide of electrical impulses, warming the heart, sickening the stomach, or stimulating the adrenals in an instant to fight or flight.”14 IMPACT  How is your voice impacting the bodies that it touches? Does it warm the heart or sicken the stomach? How would you even know? Try recording your voice and listen to how you sound. How do you describe the voice you’ve recorded? Is this your “normal” voice? Were you nervous during the recording? What effect did your anxiety produce? Try This: Experiment with breathing. Drop your breath, relax your throat and the upper part of your torso, and record your voice again. Listen, reflect, and write down your observations. What do you notice this time? Describe how your voice sounds when you’re angry. Or tense. Or rushed. Or sad. Or happy! If you’re not sure, imagine yourself in a situation where you were angry, and record your voice. Do the same for other moments where 14 Whyte, David. The Heart Aroused: Poetry and the Preservation of the Soul in Corporate America. Doubleday, 1994  Suzanne Zeman  60 you were tense, hurrying, sad, happy, etc. Take a few notes after reflecting and describe your observations. Which voice is how you want to be heard? Which voice is friendliest? Most melodic? Inviting? What practices will help you have the voice that produces the identity you want to be known for?  FOR COACHES  All of the practices I’ve described are tools for coaching. Whether in person or on the telephone, your client’s voice reveals their current emotional state, and can also indicate the prevalent mood that is the background for their world view. As you listen to their description of their circumstances, what melody comes to the forefront? Is it lilting and happy? Monotone and strained? Listen to the voices you hear, not only from your clients, but also on the radio and television. Identify what you can distinguish from each person’s voice. What can you tell about their breathing from their voice? Is what you’re hearing consistent with the person they are, or the character they are conveying? What practices can you ask your clients to do that will help them have a full and expressive voice? What practices will help them soften their voice, not decreasing the volume, but making it easier to be listened to? What practices will produce a deeper, more grounded, and stronger voice? In the next two chapters we will be working with mood and centering. As you learn more about these topics, remember to bring your  Listening to Bodies  61 observations and what you’re learning about voice to understand how they can impact your work and expand your repertoire of tools and practices.-->
         <scene sceneID="YNG-PM-tEd">
@@ -1012,12 +1062,10 @@ practices.</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="D2v-8L-XQp">
-                                <rect key="frame" x="8" y="40" width="359" height="587"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D2v-8L-XQp">
+                                <rect key="frame" x="8" y="0.0" width="359" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">“Center is a living process of self-organization that increases our capacity to be self-generating, self-healing, and self-educating. To center ourselves is to shape ourselves in a particular way to life. It is a pattern of organization that expresses the self we are at any given moment. Center is a state of unity in which effective action, emotional balance, mental alertness, and spiritual vision are in harmonious balance. When we’re centered, our actions are coherent with what we care about.” 
-Richard Strozzi Heckler(16) 
+                                <mutableString key="text">“Center is a living process of self-organization that increases our capacity to be self-generating, self-healing, and self-educating. To center ourselves is to shape ourselves in a particular way to life. It is a pattern of organization that expresses the self we are at any given moment. Center is a state of unity in which effective action, emotional balance, mental alertness, and spiritual vision are in harmonious balance. When we’re centered, our actions are coherent with what we care about.”  Richard Strozzi Heckler(16) 
  Ideally, our practices are those activities that shape us to be able to perform at our best. When we're not fully aware of our bodies, or our mental and emotional states, the practices that we do are simply habits, either helping us be more effective, or producing greater states of unconsciousness. Even though we're always practicing something, we're usually not aware of what we're practicing, or what our habitual practices produce for us. The basic practices that are described here can produce more openness, awareness, and greatly increase our ability to take effective action. 
  How do these practices help? When our minds scan for problems and recall past problems in an effort to ensure that we don't repeat them, we often get caught in an endless loop: replaying, replaying, replaying, replaying. These loops could direct us to make the future look exactly like the past because the past is a known quantity and it's safe and predictable. Awareness of this automated process is the first step in getting free from its clutches. 
 
@@ -1064,11 +1112,17 @@ tree and feel the life force in the tree through your back. Extend into that lif
  SUMMARY 
  These fundamental practices will help you feel life as a tangible experience, and your body awareness can then be used as a doorway to the realms of intuition, perception, and expression. These are not ends in themselves, but can help you move to a strong connection into yourself to carry into your dialogues with others, your work, and the deeper aspects of who you are as leaders in your families, businesses, communities and the world. Remember, we are always practicing something. So choose your practices to help you be the person you want to be! 
  (16) Strozzi Heckler, Richard. Holding the Center: Sanctuary in a Time of Confusion. Frog, Ltd., 1997. </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D2v-8L-XQp" firstAttribute="leading" secondItem="nED-qU-Ltw" secondAttribute="leading" constant="8" id="9tp-2o-pom"/>
+                            <constraint firstItem="D2v-8L-XQp" firstAttribute="top" secondItem="ngB-D2-duU" secondAttribute="top" id="kv3-ed-uw5"/>
+                            <constraint firstItem="nED-qU-Ltw" firstAttribute="trailing" secondItem="D2v-8L-XQp" secondAttribute="trailing" constant="8" id="rcq-n9-7WZ"/>
+                            <constraint firstItem="nED-qU-Ltw" firstAttribute="bottom" secondItem="D2v-8L-XQp" secondAttribute="bottom" id="yD6-wl-hzE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nED-qU-Ltw"/>
                     </view>
                 </viewController>
@@ -1084,11 +1138,10 @@ tree and feel the life force in the tree through your back. Extend into that lif
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FjR-bR-VZ2">
-                                <rect key="frame" x="8" y="40" width="359" height="587"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FjR-bR-VZ2">
+                                <rect key="frame" x="8" y="0.0" width="359" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. " Desda Zuckerman(17) 
+                                <string key="text">"Any time merging with another occurs, or it is impossible to resist being pulled into the story or scenario of another person, it is safe to say your awareness is not at the Edge. Losing the ability to see, to feel, or to know yourself as separate and distinct from another person, is off base. In these situations: stop, assess, and begin again to reach the Edge. " Desda Zuckerman(17) 
  Imagine a moment that happened recently, when you felt stressed, pressured, emotional, or otherwise impacted by circumstances outside your control. Remember how you felt? Wouldn’t it be great to have ways to help yourself in those moments? In my recent studies, I have found practices to accomplish just that. You can “get big”, expanding your energetic structure, so that you don’t feel pressured or stressed, can think clearly, and can take effective action by practicing the techniques I’ve described in the previous chapter, “Basic Practices: Centering, Length, Width, and Depth” and combining them with breathing practices (Chapter 3, “Breathing and Breathing Practices”). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Core IndividuationTM created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
  The first step is to become aware of your breathing. Where is your breath located? Is it mostly high up in your chest? That’s pretty normal in our fast-paced world. Take a few minutes right now to work with your breathing. Bring it down to the level of your ribs. Then down to your belly. And now use your entire torso to breath, using the full capacity of your lungs. Once you can do that, we can start to work with expanding your energetic dimensions. 
  REVIEW 
@@ -1109,12 +1162,18 @@ awareness to your back, remembering all your learning, life experience, teachers
  This is a more advanced practice, only for those students who have mastered the practices in the previous chapters. If you are confident with your own expansion, and are comfortable moving in the world while experiencing your own Edge, you may find this practice helpful for your more sensitive clients who have mastered the practices as described. As with any of the previous pieces,don’t hesitate to contact me if you have any questions! 
  IN CONCLUSION 
  Thank you for working with me and experimenting with this series of distinctions and practices. I hope you are enjoying your learning, as you become more sensitive to your own body and the bodies of the people you work with, learn with, play with, dance with, and live with! If you have any questions or comments, or just want to share what you’re learning by “Listening to Bodies”, please let me know. You can email me at szeman@somaticbusinesscoach.com. And most importantly, have fun listening! 
- (17) Zuckerman, Desda. “Working at the Edge”, private publication, 2006. </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+ (17) Zuckerman, Desda. “Working at the Edge”, private publication, 2006. </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="epj-Qw-64i" firstAttribute="trailing" secondItem="FjR-bR-VZ2" secondAttribute="trailing" constant="8" id="AZb-6J-P6B"/>
+                            <constraint firstItem="FjR-bR-VZ2" firstAttribute="top" secondItem="fhv-28-Rhn" secondAttribute="top" id="SnV-1y-fIo"/>
+                            <constraint firstItem="FjR-bR-VZ2" firstAttribute="leading" secondItem="epj-Qw-64i" secondAttribute="leading" constant="8" id="XqC-z2-0ah"/>
+                            <constraint firstItem="epj-Qw-64i" firstAttribute="bottom" secondItem="FjR-bR-VZ2" secondAttribute="bottom" id="upm-u4-8a1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="epj-Qw-64i"/>
                     </view>
                 </viewController>
@@ -1130,18 +1189,23 @@ awareness to your back, remembering all your learning, life experience, teachers
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xg7-G6-UDD">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xg7-G6-UDD">
+                                <rect key="frame" x="8" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Bringing this book to completion has been a journey with many travelers. The road began with my teachers: Fernando Flores, who taught me to pay attention to language, for in language we create reality; Bob Dunham, who taught me management and executive skills and gave me my first coaching clients; Julio Olalla and Rafael Echeverria, who taught me the essentials for ontological coaching, brought me to California, and gave me my first coaching certification; Richard Strozzi-Heckler, who taught me to observe and work with bodies, acknowledging my innovative way of doing somatic work over the phone, inviting me to write an essay that he included in a collection of his students’ work(18), and certifying me as a Master Somatic Coach; and Desda Zuckerman, who taught me about the subtle energetic body and how to get big, and certified me as a practitioner of Core IndividuationTM.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
+                                <string key="text">Bringing this book to completion has been a journey with many travelers. The road began with my teachers: Fernando Flores, who taught me to pay attention to language, for in language we create reality; Bob Dunham, who taught me management and executive skills and gave me my first coaching clients; Julio Olalla and Rafael Echeverria, who taught me the essentials for ontological coaching, brought me to California, and gave me my first coaching certification; Richard Strozzi-Heckler, who taught me to observe and work with bodies, acknowledging my innovative way of doing somatic work over the phone, inviting me to write an essay that he included in a collection of his students’ work(18), and certifying me as a Master Somatic Coach; and Desda Zuckerman, who taught me about the subtle energetic body and how to get big, and certified me as a practitioner of Core IndividuationTM.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
  Without the help of my colleagues and friends who so patiently read the drafts and provided their feedback, questions and suggestions, this book would not have gotten done: Tina Maloney, Jane Perry, Will Smolak, Marcia Orlowski, Merle McKinley, Sari Broner, Leslie Warren, Tivo Rojas-Cheatham, Liz Cunningham, and Rita Dettore. To Bob Dunham and the Company of Leaders, especially Dr. Peter Denning, Dan Waldman, Bill Maclay, Sam Ramji, and Janet Byrne- Smith, sincere gratitude for your support and care. Thank you to Cat Weatherup for help with the cover. And to my extraordinary friend, Andrei Marcon, who not only put up with my demands and Jersey-girl style, but willingly took on the design, production, and organization of this book – thank you from my heart. 
- (18) “Listening to Bodies Long Distance: The Power and Possibility of Telephone Coaching", Chapter 9 of Being Human At Work: Bringing Somatic Intelligence Into Your Professional Life, edited by Richard Strozzi-Heckler, North Atlantic Books, 2003</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+ (18) “Listening to Bodies Long Distance: The Power and Possibility of Telephone Coaching", Chapter 9 of Being Human At Work: Bringing Somatic Intelligence Into Your Professional Life, edited by Richard Strozzi-Heckler, North Atlantic Books, 2003</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xg7-G6-UDD" firstAttribute="leading" secondItem="9N4-zf-T9c" secondAttribute="leading" constant="8" id="CyX-fs-fo3"/>
+                            <constraint firstItem="Xg7-G6-UDD" firstAttribute="top" secondItem="9N4-zf-T9c" secondAttribute="top" id="KvQ-oT-DYM"/>
+                            <constraint firstItem="Xg7-G6-UDD" firstAttribute="trailing" secondItem="9N4-zf-T9c" secondAttribute="trailing" constant="8" id="lqP-4h-dEa"/>
+                            <constraint firstItem="Xg7-G6-UDD" firstAttribute="bottom" secondItem="9N4-zf-T9c" secondAttribute="bottom" id="wFN-tM-HxP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9N4-zf-T9c"/>
                     </view>
                 </viewController>
