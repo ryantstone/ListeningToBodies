@@ -15,7 +15,7 @@ class PrefaceViewController: UIViewController {
     var breathingPlayer: AVAudioPlayer
     
     required init?(coder aDecoder: NSCoder) {
-        let scanURL = Bundle.main.url(forResource: "body_scan", withExtension: "mp3")!
+        let scanURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")!
         scanPlayer = try! AVAudioPlayer(contentsOf: scanURL)
         
         let breathingURL = Bundle.main.url(forResource: "breathing_practices", withExtension: "mp3")!

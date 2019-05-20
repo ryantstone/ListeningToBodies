@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */; };
 		945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 945950CC21F2910400DF128C /* breathing_practices.mp3 */; };
 		945950CF21F2910F00DF128C /* body_scan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 945950CE21F2910F00DF128C /* body_scan.mp3 */; };
 		94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC521ECF6E000434710 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan_1.mp3; sourceTree = "<group>"; };
 		945950CC21F2910400DF128C /* breathing_practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing_practices.mp3; sourceTree = "<group>"; };
 		945950CE21F2910F00DF128C /* body_scan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan.mp3; sourceTree = "<group>"; };
 		94A0DBC221ECF6E000434710 /* ListeningToBodies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListeningToBodies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 			children = (
 				945950CC21F2910400DF128C /* breathing_practices.mp3 */,
 				945950CE21F2910F00DF128C /* body_scan.mp3 */,
+				940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945950CF21F2910F00DF128C /* body_scan.mp3 in Resources */,
+				940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */,
 				94A0DBD021ECF6E200434710 /* LaunchScreen.storyboard in Resources */,
 				94A0DBCD21ECF6E200434710 /* Assets.xcassets in Resources */,
 				945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */,
@@ -313,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.ListeningToBodies2;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.ListeningToBodies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.ListeningToBodies2;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kurkuma.ListeningToBodies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
