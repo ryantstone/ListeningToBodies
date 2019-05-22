@@ -261,8 +261,32 @@
                                             <segue destination="7K5-MK-1Wb" kind="show" id="8mx-BX-pVN"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mJP-Y1-bbx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="zmU-Uf-gNf">
                                         <rect key="frame" x="0.0" y="440" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zmU-Uf-gNf" id="7ZQ-hb-4Ws">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Audio Recordings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ril-9X-inj">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="21"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Ril-9X-inj" secondAttribute="trailing" constant="8" id="aIE-lg-eu3"/>
+                                                <constraint firstItem="Ril-9X-inj" firstAttribute="centerY" secondItem="7ZQ-hb-4Ws" secondAttribute="centerY" id="hLi-wD-BWM"/>
+                                                <constraint firstItem="Ril-9X-inj" firstAttribute="leading" secondItem="7ZQ-hb-4Ws" secondAttribute="leading" constant="8" id="mOg-4n-CGs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BZ3-z6-H3Y" kind="show" id="COV-eU-QZv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mJP-Y1-bbx">
+                                        <rect key="frame" x="0.0" y="484" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mJP-Y1-bbx" id="f9r-FS-faY">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -348,7 +372,7 @@ Examples are provided in the preface: </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological(1) coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Conscience IntelligenceTM, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
+                                        <string key="content">.  Doing somatic work over the telephone began as an experiment. In my  first career I was a research chemist, and created experiments to test  theories and possibilities. I stayed in research, over the years switching the subject matter of my research from polymeric prototypes to studying people, how we learn, and how we can change our behaviors to be more in line with our ideal self. I was certified as an ontological(1) coach in 1992 while working in sales, marketing and business development. After several years of consulting in large-scale organizational change, design and implementation of communication strategies, the constant travel became too much, and I decided to redesign my work. After several years of study, I designed an experiment with five participants to determine whether I could help them by doing somatic work with them over the telephone. I was encouraged with the positive results, and recognized that what I was doing was innovative in the field of somatic practice. I was certified as a master somatic coach in 2001.   Other practitioners soon asked me to teach them some of the techniques and practices I use in my work, and I developed a six-session teleclass program called “Listening to Bodies Long Distance”. As I continued my studies of the extended human energetic structure, I added a basic practice developed from Sacred Anatomy Healing™, which helps practitioners strengthen their capacity to be open, available, and aware of their own boundary to eliminate merging with difficult challenges and issues imposed by others.   When I teach these principles in person to other coaches or to my clients, the teaching and learning are very participatory. I talk about the practices, I guide the learners in the practices, answer their questions, practice again, help them if they want to go deeper, etc. In order to get the most from this primer, read the material, do the practices, reflect, journal about your observations, and repeat the practices. Repeating each practice will not only give you more confidence with the distinctions, it will also help you embody the skills for listening to your own body. Whether you are a coach, learning to do somatic work over the telephone with your clients, someone wanting to listen to your own body with greater skill and mindfulness, or an executive who wants to get more skillful in working with and relating to others, this book will give you the practices to learn.   Mastery of the practices we’ll be working with requires years of repetition, so it’s also helpful to be at peace with being a beginner.  Recognize the competence you are developing, knowing that you have gained some skill with your own listening. With recurrence, you will be more and more competent to observe, listen, and work with others. Be patient with your learning, and have fun! Even beginners will be able to get results with the fundamental practices of body scanning, breathing and centering. You will continue to develop awareness and listening skills with every repetition – what’s important is to get started and stay with each practice. 
  Enjoy learning to listen to your body and the bodies of the people you work with, play with, and live with.  </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -487,26 +511,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-8J-ZbM">
-                                <rect key="frame" x="86" y="598" width="74" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Body Scan"/>
-                                <connections>
-                                    <action selector="bsClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="huH-sK-Ciz"/>
-                                    <action selector="bsClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="xds-VP-fCu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-EC-dQ7">
-                                <rect key="frame" x="195" y="598" width="127" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Breathing Practice"/>
-                                <connections>
-                                    <action selector="bpClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="Jnw-hX-GFN"/>
-                                    <action selector="bpClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="vFB-cK-7HZ"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
                                 <rect key="frame" x="8" y="64" width="367" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -577,6 +581,28 @@ In our learning together, I will provide the basic principles that will help you
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XC-bj-xSe">
+                                <rect key="frame" x="169" y="212" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.04660398483" blue="0.066616532879999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="TEST">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="testClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="3g3-dj-ZpR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP7-pc-m8c">
+                                <rect key="frame" x="261" y="212" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="AV Test">
+                                    <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0dv-dB-g5g" kind="show" id="oS9-vi-FLS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -588,13 +614,137 @@ In our learning together, I will provide the basic principles that will help you
                         <viewLayoutGuide key="safeArea" id="NHU-AG-KAR"/>
                     </view>
                     <connections>
+                        <outlet property="avTest" destination="DD8-Hk-Fu5" id="jzf-B1-gOh"/>
                         <outlet property="prefaceTextView" destination="DD8-Hk-Fu5" id="MmD-0B-qa1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nc9-o8-rEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Ha8-Ld-m9B" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1554.4000000000001" y="1618.7406296851575"/>
+        </scene>
+        <!--Media Player-->
+        <scene sceneID="0mF-ye-ieu">
+            <objects>
+                <viewController title="Media Player" id="0dv-dB-g5g" customClass="AudioPlayerViewController" customModule="ListeningToBodies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L7m-Do-3V4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SZ Mandala5" translatesAutoresizingMaskIntoConstraints="NO" id="opk-Cv-5lk">
+                                <rect key="frame" x="16" y="64" width="343" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="opk-Cv-5lk" secondAttribute="height" multiplier="1:1" id="QhB-YC-sAZ"/>
+                                </constraints>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-cc-tAI">
+                                <rect key="frame" x="16" y="415" width="343" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="pW9-c8-O8f"/>
+                                </constraints>
+                                <color key="progressTintColor" red="0.067173667249999999" green="0.19737473129999999" blue="0.1137064025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOI-zO-I3C">
+                                <rect key="frame" x="165.5" y="437" width="44" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="mqd-fH-NjW"/>
+                                    <constraint firstAttribute="width" secondItem="vOI-zO-I3C" secondAttribute="height" multiplier="1:1" id="yfT-3e-LLK"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="play"/>
+                                <state key="selected" image="pause"/>
+                                <connections>
+                                    <action selector="playPauseButton:" destination="6Iw-dw-6nQ" eventType="touchUpInside" id="ia2-Hq-9du"/>
+                                    <action selector="playTapped:" destination="0dv-dB-g5g" eventType="touchUpInside" id="GNE-wG-9av"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ7-pz-2RH">
+                                <rect key="frame" x="245.5" y="437" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WZ7-pz-2RH" secondAttribute="height" multiplier="1:1" id="z1H-t6-J3Q"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="plus-10"/>
+                                <connections>
+                                    <action selector="plus10Tapped:" destination="0dv-dB-g5g" eventType="touchUpInside" id="bvu-2W-9L0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNS-aY-ra8">
+                                <rect key="frame" x="85.5" y="437" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WNS-aY-ra8" secondAttribute="height" multiplier="1:1" id="QdA-5X-EJK"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="minus-10"/>
+                                <connections>
+                                    <action selector="minus10Tapped:" destination="0dv-dB-g5g" eventType="touchUpInside" id="LQK-xp-Xuu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-89-odA">
+                                <rect key="frame" x="16" y="425" width="28.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cB8-xA-jkp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-pM-VuG">
+                                <rect key="frame" x="330.5" y="425" width="28.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="WXy-sr-qMw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-fs-yxs">
+                                <rect key="frame" x="123.5" y="489" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="centerX" secondItem="L7m-Do-3V4" secondAttribute="centerX" id="2PE-ut-zbI"/>
+                            <constraint firstItem="P66-89-odA" firstAttribute="leading" secondItem="SAs-aQ-gUn" secondAttribute="leading" constant="16" id="2RW-RQ-lKi"/>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="height" secondItem="WNS-aY-ra8" secondAttribute="height" id="2Rv-5q-AZt"/>
+                            <constraint firstItem="P66-89-odA" firstAttribute="top" secondItem="8Jh-cc-tAI" secondAttribute="bottom" constant="8" id="5GO-Xa-mMB"/>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="leading" secondItem="WNS-aY-ra8" secondAttribute="trailing" constant="36" id="6yN-NA-JlV"/>
+                            <constraint firstItem="b3E-fs-yxs" firstAttribute="top" secondItem="vOI-zO-I3C" secondAttribute="bottom" constant="8" id="AYW-ZO-Lhe"/>
+                            <constraint firstItem="SAs-aQ-gUn" firstAttribute="trailing" secondItem="pEX-pM-VuG" secondAttribute="trailing" constant="16" id="CNI-S1-iPH"/>
+                            <constraint firstItem="WZ7-pz-2RH" firstAttribute="height" secondItem="vOI-zO-I3C" secondAttribute="height" id="NsH-zb-NJA"/>
+                            <constraint firstItem="8Jh-cc-tAI" firstAttribute="top" secondItem="opk-Cv-5lk" secondAttribute="bottom" constant="8" id="OZr-Ge-GpK"/>
+                            <constraint firstItem="WZ7-pz-2RH" firstAttribute="centerY" secondItem="WNS-aY-ra8" secondAttribute="centerY" id="QPK-eo-h5k"/>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="top" secondItem="8Jh-cc-tAI" secondAttribute="bottom" constant="20" id="Xw4-Hh-Iz5"/>
+                            <constraint firstItem="8Jh-cc-tAI" firstAttribute="leading" secondItem="L7m-Do-3V4" secondAttribute="leadingMargin" id="cRl-0t-3n8"/>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="centerY" secondItem="WNS-aY-ra8" secondAttribute="centerY" id="dr4-ya-6eh"/>
+                            <constraint firstItem="pEX-pM-VuG" firstAttribute="top" secondItem="8Jh-cc-tAI" secondAttribute="bottom" constant="8" id="ead-8V-j61"/>
+                            <constraint firstItem="vOI-zO-I3C" firstAttribute="centerX" secondItem="L7m-Do-3V4" secondAttribute="centerX" id="jAu-JQ-yGD"/>
+                            <constraint firstItem="SAs-aQ-gUn" firstAttribute="trailing" secondItem="opk-Cv-5lk" secondAttribute="trailing" constant="16" id="lEt-A1-aTz"/>
+                            <constraint firstItem="opk-Cv-5lk" firstAttribute="leading" secondItem="SAs-aQ-gUn" secondAttribute="leading" constant="16" id="lTR-Bc-sKK"/>
+                            <constraint firstItem="8Jh-cc-tAI" firstAttribute="trailing" secondItem="L7m-Do-3V4" secondAttribute="trailingMargin" id="uf3-ht-9WR"/>
+                            <constraint firstItem="opk-Cv-5lk" firstAttribute="top" secondItem="SAs-aQ-gUn" secondAttribute="top" id="w6S-N5-PGo"/>
+                            <constraint firstItem="b3E-fs-yxs" firstAttribute="centerX" secondItem="L7m-Do-3V4" secondAttribute="centerX" id="wue-es-re2"/>
+                            <constraint firstItem="WZ7-pz-2RH" firstAttribute="leading" secondItem="vOI-zO-I3C" secondAttribute="trailing" constant="36" id="xUS-ul-Ujx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SAs-aQ-gUn"/>
+                    </view>
+                    <connections>
+                        <outlet property="audioTrackTitle" destination="b3E-fs-yxs" id="twa-Xe-Fnt"/>
+                        <outlet property="countDownLabel" destination="pEX-pM-VuG" id="xkY-Qm-TWj"/>
+                        <outlet property="countUpLabel" destination="P66-89-odA" id="njJ-Ox-VKL"/>
+                        <outlet property="playPauseButton" destination="vOI-zO-I3C" id="h4Z-lU-Gsg"/>
+                        <outlet property="progressBar" destination="8Jh-cc-tAI" id="qo2-xK-TJ8"/>
+                        <outlet property="skipBackwardButton" destination="WNS-aY-ra8" id="X9P-QK-w7a"/>
+                        <outlet property="skipForwardButton" destination="WZ7-pz-2RH" id="y9w-xH-qH5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9A-N6-KWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6Iw-dw-6nQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="7572" y="2475"/>
         </scene>
         <!--LISTENING: How do we do it?-->
         <scene sceneID="vgc-Di-4ha">
@@ -3143,22 +3293,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Conscience Intelligence</string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="TM">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="17" name="ArialMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
+                                        <string key="content">). This chapter takes those practices a step further, explaining how you can work with your extended energetic structure, based on the teachings and work of Sacred Anatomy Healing™ created by Desda Zuckerman. With awareness and intention, you can expand to the edge of your energetic structure: your own Edge. And when you are in a fully expanded state, circumstances, pressures and stresses that seemed overwhelming when your structure was collapsed or contracted, no longer have the same impact. You can think and move freely and have more choices available to you as a result. 
  The first step is to become aware of your breathing. Where is your breath located? Is it mostly high up in your chest? That’s pretty normal in our fast-paced world. Take a few minutes right now to work with your breathing. Bring it down to the level of your ribs. Then down to your belly. And now use your entire torso to breath, using the full capacity of your lungs. Once you can do that, we can start to work with expanding your energetic dimensions. 
  </string>
                                         <attributes>
@@ -3343,6 +3478,66 @@ tree and feel the life force in the tree through your back. Extend into that lif
             </objects>
             <point key="canvasLocation" x="6796" y="1621"/>
         </scene>
+        <!--Audio Recordings-->
+        <scene sceneID="OoA-Kx-mlD">
+            <objects>
+                <tableViewController title="Audio Recordings" id="BZ3-z6-H3Y" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gYo-Xe-DAl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="QLO-JT-Ijp">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pMC-5f-O4e">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pMC-5f-O4e" id="0lI-cQ-zTV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body Scan 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBo-DE-4xz">
+                                                    <rect key="frame" x="16" y="12" width="343" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0dv-dB-g5g" kind="show" id="NA3-zG-p8X"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P0F-ap-SKR">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P0F-ap-SKR" id="irn-0M-AEP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="exN-iw-u1h">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="exN-iw-u1h" id="ukX-Kb-YdH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="BZ3-z6-H3Y" id="jpX-qX-CWp"/>
+                            <outlet property="delegate" destination="BZ3-z6-H3Y" id="BJY-IM-W06"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4B-a4-B5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7572" y="1618.7406296851575"/>
+        </scene>
         <!--Acknowledgements-->
         <scene sceneID="A37-QO-uHn">
             <objects>
@@ -3372,7 +3567,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">, and certified me as a practitioner of Conscience IntelligenceTM.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
+                                        <string key="content">, and certified me as a practitioner of Sacred Anatomy Healing™.   All the students in my teleclasses called “Listening to Bodies Long Distance” have contributed to the content of this book, by engaging with me, asking clarifying questions, and applying what they learned to their work with clients and colleagues. I am so grateful to every one of you. 
  Without the help of my colleagues and friends who so patiently read the drafts and provided their feedback, questions and suggestions, this book would not have gotten done: Tina Maloney, Jane Perry, Will Smolak, Marcia Orlowski, Merle McKinley, Sari Broner, Leslie Warren, Tivo Rojas-Cheatham, Liz Cunningham, and Rita Dettore.   To Bob Dunham and the Company of Leaders, especially Dr. Peter Denning, Dan Waldman, Bill Maclay, Sam Ramji, and Janet Byrne- Smith, sincere gratitude for your support and care.   Thank you to Cat Weatherup for help with the cover.   And to my extraordinary friend, Andrei Marcon, who not only put up with my demands and Jersey-girl style, but willingly took on the design, production, and organization of this book – thank you from my heart. 
  </string>
                                         <attributes>
@@ -3418,7 +3613,7 @@ tree and feel the life force in the tree through your back. Extend into that lif
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZd-mL-mht" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7608.8000000000002" y="1619.6401799100452"/>
+            <point key="canvasLocation" x="8372" y="1621"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kSh-Ns-3qE">
@@ -3441,5 +3636,12 @@ tree and feel the life force in the tree through your back. Extend into that lif
     </scenes>
     <resources>
         <image name="SZ Mandala5" width="1188" height="1188"/>
+        <image name="minus-10" width="24" height="24"/>
+        <image name="pause" width="24" height="24"/>
+        <image name="play" width="24" height="24"/>
+        <image name="plus-10" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="NA3-zG-p8X"/>
+    </inferredMetricsTieBreakers>
 </document>

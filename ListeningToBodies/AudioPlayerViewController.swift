@@ -18,6 +18,7 @@ class AudioPlayerViewController: UIViewController {
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var countUpLabel: UILabel!
     @IBOutlet weak var countDownLabel: UILabel!
+    @IBOutlet weak var audioTrackTitle: UILabel!
     
     
     // MARK: AVAudio properties
@@ -50,13 +51,6 @@ class AudioPlayerViewController: UIViewController {
     var audioLengthSeconds: Float = 0
     var audioLengthSamples: AVAudioFramePosition = 0
     var needsFileScheduled = true
-//    let rateSliderValues: [Float] = [0.5, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0]
-//    var rateValue: Float = 1.0 {
-//        didSet {
-//            rateEffect.rate = rateValue
-//            updateRateLabel()
-//        }
-//    }
     var updater: CADisplayLink?
     var currentFrame: AVAudioFramePosition {
         guard let lastRenderTime = player.lastRenderTime,
@@ -68,8 +62,6 @@ class AudioPlayerViewController: UIViewController {
     }
     var seekFrame: AVAudioFramePosition = 0
     var currentPosition: AVAudioFramePosition = 0
-    let pauseImageHeight: Float = 26.0
-    let minDb: Float = -80.0
     
     enum TimeConstant {
         static let secsPerMin = 60
@@ -82,30 +74,27 @@ class AudioPlayerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-   //     setupRateSlider()
         countUpLabel.text = formatted(time: 0)
         print(countDownLabel.text)
         countDownLabel.text = formatted(time: audioLengthSeconds)
         setupAudio()
+        
+        updater = CADisplayLink(target: self, selector: #selector(updateUI))
+//        updater?.add(to: .current, forMode: .RunLoop.Mode.default)
+        updater?.isPaused = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-//        updateRateLabel()
     }
 }
 
 // MARK: - Actions
 //
 extension AudioPlayerViewController {
-//    @IBAction func didChangeRateValue(_ sender: UISlider) {
-//        let index = round(sender.value)
-//        rateSlider.setValue(Float(index), animated: false)
-//        rateValue = rateSliderValues[Int(index)]
-//    }
     
-    
+
     @IBAction func playTapped(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
         
@@ -131,6 +120,7 @@ extension AudioPlayerViewController {
     @IBAction func plus10Tapped(_ sender: UIButton) {
         guard let _ = player.engine else { return }
         seek(to: 10.0)
+        print("plus10Tapped")
 }
     
 
@@ -138,6 +128,7 @@ extension AudioPlayerViewController {
         guard let _ = player.engine else { return }
         needsFileScheduled = false
         seek(to: -10.0)
+        print("minus10Tapped")
     }
     
     @objc func updateUI() {
@@ -162,23 +153,6 @@ extension AudioPlayerViewController {
 // MARK: - Display related
 //
 extension AudioPlayerViewController {
-//    func setupRateSlider() {
-//        let numSteps = rateSliderValues.count-1
-//        rateSlider.minimumValue = 0
-//        rateSlider.maximumValue = Float(numSteps)
-//        rateSlider.isContinuous = true
-//        rateSlider.setValue(1.0, animated: false)
-//        rateValue = 1.0
-//        updateRateLabel()
-//    }
-//
-//    func updateRateLabel() {
-//        rateLabel.text = "\(rateValue)x"
-//        let trackRect = rateSlider.trackRect(forBounds: rateSlider.bounds)
-//        let thumbRect = rateSlider.thumbRect(forBounds: rateSlider.bounds , trackRect: trackRect, value: rateSlider.value)
-//        let x = thumbRect.origin.x + thumbRect.width/2 - rateLabel.frame.width/2
-//        rateLabelLeading.constant = x
-//    }
     
     func formatted(time: Float) -> String {
         var secs = Int(ceil(time))
@@ -208,13 +182,16 @@ extension AudioPlayerViewController {
 //
 extension AudioPlayerViewController {
     func setupAudio() {
-        audioFileURL  = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
+        audioFileURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")
         
         engine.attach(player)
-        engine.attach(rateEffect)
-        engine.connect(player, to: rateEffect, format: audioFormat)
-        engine.connect(rateEffect, to: engine.mainMixerNode, format: audioFormat)
-        
+        //       engine.connect(player, to: rateEffect, format: audioFormat)
+        engine.connect(player, to: engine.mainMixerNode, format: audioFormat)
+        if let title = URL(string: audioFileURL!.lastPathComponent) {
+            audioTrackTitle.text = "\(title.lastPathComponent)"
+        } else {
+            print("error - not a valid url!")
+        }
         engine.prepare()
         
         do {
@@ -226,7 +203,6 @@ extension AudioPlayerViewController {
     
     func scheduleAudioFile() {
         guard let audioFile = audioFile else { return }
-        
         seekFrame = 0
         player.scheduleFile(audioFile, at: nil) { [weak self] in
             self?.needsFileScheduled = true
@@ -268,19 +244,3 @@ extension AudioPlayerViewController {
     }
     
 }
-
-        // Do any additional setup after loading the view.
-
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-

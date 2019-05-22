@@ -11,50 +11,43 @@ import AVFoundation
 
 class PrefaceViewController: UIViewController {
 
-    var scanPlayer: AVAudioPlayer
-    var breathingPlayer: AVAudioPlayer
+
+    var testPlayer: AVAudioPlayer
     
     required init?(coder aDecoder: NSCoder) {
-        let scanURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")!
-        scanPlayer = try! AVAudioPlayer(contentsOf: scanURL)
         
-        let breathingURL = Bundle.main.url(forResource: "breathing_practices", withExtension: "mp3")!
-        breathingPlayer = try! AVAudioPlayer(contentsOf: breathingURL)
+        let testURL = Bundle.main.url(forResource: "body_scan_1", withExtension: "mp3")!
+        testPlayer = try! AVAudioPlayer(contentsOf: testURL)
         
         super.init(coder: aDecoder)
     }
 
     @IBOutlet weak var prefaceTextView: UITextView!
     
-    @IBAction func bsClicked(_ sender: UIButton) {
-        if scanPlayer.isPlaying == false {
-            scanPlayer.play()
+
+    @IBAction func testClicked(_ sender: UIButton) {
+        if testPlayer.isPlaying == false {
+            testPlayer.play()
         } else {
-            scanPlayer.pause()
+            testPlayer.pause()
         }
     }
     
-    
-    @IBAction func bpClicked(_ sender: UIButton) {
-        if breathingPlayer.isPlaying == false {
-            breathingPlayer.play()
-        } else {
-            breathingPlayer.pause()
-        }
-    }
+    @IBOutlet weak var avTest: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scanPlayer.prepareToPlay()
-        breathingPlayer.prepareToPlay()
+
+        testPlayer.prepareToPlay()
         
-//        prefaceTextView.textColor = .darkText
-//        print(prefaceTextView.textStorage)
-//        let mutableAttrString = NSMutableAttributedString(string: prefaceTextView.text)
-//        let sourceRange = //
+//        let attributedString = NSMutableAttributedString(string: "Want to learn iOS? You should visit the best source of free iOS tutorials!")
+//        attributedString.addAttribute(.link, value: "https://www.hackingwithswift.com", range: NSRange(location: 19, length: 55))
 //
-//            mutableAttrString.addAttribute(.foregroundColor, value: UIColor.white, range: sourceRange)
-//        prefaceTextView.attributedText = mutableAttrString
-    
-    }
+//        prefaceTextView.attributedText = attributedString
+//    }
+//
+//    func prefaceTextView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
+//        UIApplication.shared.open(URL)
+//        return false
+   }
 }
