@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		940F95E12292C9B30012ADB5 /* body_scan_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */; };
+		941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941773A122944CB60038C69E /* AudioPlayerViewController.swift */; };
 		945950CD21F2910400DF128C /* breathing_practices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 945950CC21F2910400DF128C /* breathing_practices.mp3 */; };
 		94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC521ECF6E000434710 /* AppDelegate.swift */; };
 		94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0DBC721ECF6E000434710 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		940F95E02292C9B30012ADB5 /* body_scan_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = body_scan_1.mp3; sourceTree = "<group>"; };
+		941773A122944CB60038C69E /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		945950CC21F2910400DF128C /* breathing_practices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathing_practices.mp3; sourceTree = "<group>"; };
 		94A0DBC221ECF6E000434710 /* ListeningToBodies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListeningToBodies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A0DBC521ECF6E000434710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				94A0DBC921ECF6E000434710 /* Main.storyboard */,
 				94A0DBD721ECFA7F00434710 /* MainTableViewController.swift */,
 				94A0DBD921ED389200434710 /* PrefaceViewController.swift */,
+				941773A122944CB60038C69E /* AudioPlayerViewController.swift */,
 				94A0DBCC21ECF6E200434710 /* Assets.xcassets */,
 				94A0DBCE21ECF6E200434710 /* LaunchScreen.storyboard */,
 				94A0DBD121ECF6E200434710 /* Info.plist */,
@@ -160,6 +163,7 @@
 			files = (
 				94A0DBC821ECF6E000434710 /* ViewController.swift in Sources */,
 				94A0DBD821ECFA7F00434710 /* MainTableViewController.swift in Sources */,
+				941773A222944CB60038C69E /* AudioPlayerViewController.swift in Sources */,
 				94A0DBC621ECF6E000434710 /* AppDelegate.swift in Sources */,
 				94A0DBDA21ED389200434710 /* PrefaceViewController.swift in Sources */,
 			);
