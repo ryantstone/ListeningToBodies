@@ -66,7 +66,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Bo2-h4-mGM" kind="show" id="6fh-H9-yZW"/>
+                                            <segue destination="Bo2-h4-mGM" kind="show" identifier="preface" id="6fh-H9-yZW"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hqj-vJ-15a">
@@ -390,112 +390,25 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" pagingEnabled="YES" contentInsetAdjustmentBehavior="never" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DD8-Hk-Fu5">
-                                <rect key="frame" x="8" y="64" width="367" height="603"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dku-OP-PGE" customClass="PrefaceTableView" customModule="ListeningToBodies" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Traditional business coaching has long been recognized as a powerful catalyst for developing the skills of successful leadership. Somatic business coaching unites the power of traditional business coaching with the wisdom of somatics, or the wisdom of the entire body, mind and spirit.
-
-The ability to mobilize and motivate others, attract talented followers, be politically astute, and think strategically are a few of the traits necessary for the consummate leader. Most business training and coaching, however, neglect the body and its enormous capacity for wisdom, energy, and leadership. Somatic coaching helps build effective leadership by using basic principles to become a fully embodied person.  When somatic intelligence and practices are incorporated into proven traditional coaching practices, powerful results can ensue. Here are some typical results achieved by incorporating somatic coaching with traditional coaching:
-
-• </string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">One way I used to limit success was by unconsciously maintaining a fear-based stance -- arms crossed over my chest protecting myself. Now I stand and work more professionally with my head up and arms open, ready to receive opportunities and handle challenges.</string>
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Arial-ItalicMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-
-• </string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Somatic coaching helped me be more centered, more grounded, more connected to spirit. I even walk differently!  Rather than fall into depression, I stand my ground and walk more confidently. I am more purposeful and relaxed.</string>
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Arial-ItalicMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-
-• </string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">My voice used to get caught in my throat when I was dealing with a difficult situation. Now I can remain calm and speak from my center. My voice is stronger, and I have seen positive reactions from my team when I speak in this new manner.</string>
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Arial-ItalicMT"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-
-The "body" or "soma" of somatic business coaching is very different from the mechanical body often portrayed by traditional western thinking. The traditional view emphasizes techniques, procedures and methods. It assumes there are right and wrong ways of leadership, and it often treats followers as "objects" or means for accomplishing a specific end. "Embodying" this kind of leadership requires fitting ourselves into an externally designed, pre-determined model that tells us how to dress and what attitudes to have towards others and the world.   Somatic business coaching works with each living body in its wholeness. Somatic coaches recognize that our actions are produced in our physical structure, and that our actions reflect our whole Self. This Self is the identity we have in the world, in our communities, in our organizations, in our circle of friends and in our families. It is not what we think or say about ourselves, but how we act, and how others assess these actions.   Somatics recognizes that we open or close our possibilities in the world by how we open or close our physical structures. For example, when hunched and coiled inward, I am predisposed to resignation. I limit possibilities by limiting my ability to see them and by diminishing my faith in my own resources. Not only do I overlook the resources outside myself, but I also discourage others from engaging with me. 
-If I wish to be open to more possibilities, I can practice feeling my feet firmly on the ground, allow my knees to be unlocked and flexible, expand my breathing and hold my head comfortably with my neck straight yet relaxed. In this stance, I am naturally more confident and more approachable. I have all "my wits about me," and I am better able to engage with others in productive relationships.   Changing, even when it is obvious what the benefits would be, is not always easy. It requires awareness and vigilance to shift our habits.
-
-One of the most powerful somatic business coaching practices is simply to notice what is happening in the body at any given moment. "When I pay attention to body reactions," says one executive, "it's relatively easy to shift an automatic (often unconscious) reaction to an intended one. This has helped me be much more effective at work and in dialogue with my daughter - two areas I care about."   Increased personal awareness leads to increased interpersonal awareness. "Because I am more aware of my own energy and mood," says another executive, "I am also aware of the energy and mood in staff meetings and other business contexts. It's so much easier to be connected with other people at work, even people I used to consider difficult."  In many ways, somatic business coaching practices enhance traditional business wisdom. Leaders have long been expected to observe and produce ambitious moods and trust in their teams. Reading a book on trust may promote intellectual understanding, but if someone does not embody this understanding, they cannot act on it. A person may be sincere and value trust. But if their breath is high and rapid in their tight chest, if they are squeezing their eyes and freezing a smile on their face, they will have difficulty trusting, and it will be difficult for others to trust them. When they drop their breath, open their eyes, and relax, they can be authentic and be more available to others as well. 
-In our learning together, I will provide the basic principles that will help you increase your awareness of your body, providing access to the wisdom that will help you to live a more fully expressed and satisfying life. Doing the practices may mean making some changes, but you will be the one who decides what you want to change based on the benefits you see right from the beginning.</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUj-8J-ZbM">
-                                <rect key="frame" x="86" y="598" width="74" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Body Scan"/>
-                                <connections>
-                                    <action selector="bsClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="huH-sK-Ciz"/>
-                                    <action selector="bsClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="xds-VP-fCu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-EC-dQ7">
-                                <rect key="frame" x="195" y="598" width="127" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Breathing Practice"/>
-                                <connections>
-                                    <action selector="bpClicked:" destination="Ha8-Ld-m9B" eventType="touchUpInside" id="Jnw-hX-GFN"/>
-                                    <action selector="bpClicked:" destination="Bo2-h4-mGM" eventType="touchUpInside" id="vFB-cK-7HZ"/>
-                                </connections>
-                            </button>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="DD8-Hk-Fu5" firstAttribute="top" secondItem="NHU-AG-KAR" secondAttribute="top" id="0Pp-iu-Dsl"/>
-                            <constraint firstItem="DD8-Hk-Fu5" firstAttribute="bottom" secondItem="NHU-AG-KAR" secondAttribute="bottom" id="DVS-ed-bLh"/>
-                            <constraint firstItem="DD8-Hk-Fu5" firstAttribute="trailing" secondItem="NHU-AG-KAR" secondAttribute="trailing" id="aWR-sj-mNr"/>
-                            <constraint firstItem="DD8-Hk-Fu5" firstAttribute="leading" secondItem="NHU-AG-KAR" secondAttribute="leading" constant="8" id="tW2-GF-AHe"/>
+                            <constraint firstItem="NHU-AG-KAR" firstAttribute="bottom" secondItem="Dku-OP-PGE" secondAttribute="bottom" id="A6e-eS-XEC"/>
+                            <constraint firstItem="NHU-AG-KAR" firstAttribute="trailing" secondItem="Dku-OP-PGE" secondAttribute="trailing" id="EA7-H0-Ag9"/>
+                            <constraint firstItem="Dku-OP-PGE" firstAttribute="leading" secondItem="IQn-82-Plf" secondAttribute="leading" id="m7e-hE-uwF"/>
+                            <constraint firstItem="Dku-OP-PGE" firstAttribute="top" secondItem="NHU-AG-KAR" secondAttribute="top" id="y2R-RZ-xzk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NHU-AG-KAR"/>
                     </view>
                     <connections>
-                        <outlet property="prefaceTextView" destination="DD8-Hk-Fu5" id="MmD-0B-qa1"/>
+                        <outlet property="tableView" destination="Dku-OP-PGE" id="Ihb-CX-dZk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nc9-o8-rEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Ha8-Ld-m9B" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1554.4000000000001" y="1618.7406296851575"/>
         </scene>
